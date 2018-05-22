@@ -1,0 +1,192 @@
+/*Forms*/
+.form-control {
+	background-position: 96% 50%;
+	background-repeat: no-repeat;
+	background: $color-white;
+	border: none;
+	border: solid 1px lighten($color-gray-med, 5%);
+	box-shadow: none;
+	color: $color-blue-dark;
+	font-size: $font-size-base;
+	font-weight: normal;
+	@include serif-regular;
+	@include transition(.3s);
+
+	&:focus {
+		border: solid 1px lighten($color-red-med, 30%);
+		box-shadow: none;
+		outline: 0;
+	}
+}
+.form-group {
+	margin-bottom: 25px;
+
+	&:after {
+		opacity: 0;
+		@include transition(.3s);
+	}
+	label {
+		font-size: $font-size-md;
+		font-weight: normal;
+		margin-bottom: 7px;
+		@include sans-light;
+	}
+}
+
+/*Custom Checkbox / Radio*/
+.input-custom {
+	input[type="checkbox"]:not(old),
+	input[type="radio"]:not(old) {
+		display: none;
+		margin: 0;
+		opacity: 0;
+		padding: 0;
+	}
+	input[type="checkbox"]:not(old) + label,
+	input[type="radio"]:not(old) + label {
+		display: inline-block;
+		line-height: 27px;
+		padding-left: 20px;
+	}
+	input[type="checkbox"]:not(old) + label {
+		background: url('/assets/img/checkbox-unchecked.png') no-repeat 0 5px;
+		background-size: 17px 17px;
+	}
+	input[type="checkbox"]:not(old):checked + label {
+		background: url('/assets/img/checkbox-checked.png') 0 5px no-repeat;
+		background-size: 17px 17px;
+	}
+	input[type="radio"]:not(old) + label {
+		background: url('/assets/img/radio-unchecked.png') no-repeat 0 5px;
+		background-size: 14px 14px;
+	}
+	input[type="radio"]:not(old):checked + label {
+		background: url('/assets/img/radio-checked.png') 0 5px no-repeat;
+		background-size: 14px 14px;
+	}
+	label {
+		cursor: pointer;
+		font-weight: normal;
+	}
+}
+
+/*Custom Select*/
+.select-custom {
+	background: $color-gray-med url('/assets/img/icon-drop.svg') 96% 50% no-repeat;
+	background-size: 12px 10px;
+	border: solid 1px lighten($color-gray-med, 5%);
+	overflow: hidden;
+	width: 100%;
+
+	select {
+		background: transparent;
+		border: none;
+		width: 130%;
+		-webkit-appearance: none;
+
+		&:focus {
+			border: none;
+			outline: none;
+		}
+	}
+}
+
+
+/* Gravity Forms */
+.gform_wrapper {
+
+	background-color: #f9f9f9;
+	padding: 20px 30px;
+
+	.gform_body {
+
+		label {
+			font-size: $font-size-md;
+			font-weight: normal;
+			margin-bottom: 7px;
+			@include sans-light;
+		}
+
+		input,
+		textarea {
+			outline: none;
+			border: 1px solid #cccccc;
+		}
+
+		.ginput_complex {
+			label {
+				font-weight: bold;
+			}
+		}
+	}
+
+	.gform_footer {
+		input[type=submit] {
+			background-color: $color-blue-dark;
+			color: #fff;
+			border: none;
+		    font-size: 15px;
+		    letter-spacing: 3px;
+		    line-height: 24px;
+		    padding: 10px 20px;
+		    text-decoration: none;
+		    text-transform: uppercase;
+		    font-family: 'Lato';
+		    font-weight: bold;
+		    transition: 0.3s;
+
+		    &:hover {
+		    	background-color: $color-blue-med;
+		    }
+
+		}
+	}
+
+
+}
+
+/* Search */
+.search-form {
+	text-align: center;
+
+	input {
+		padding: 20px;
+		width: 500px;
+		font-family: 'Lato';
+    	font-weight: bold;
+	}
+	input[type="submit"] {
+		background-color: #346ea2;
+		color: #fff;
+		width: 100px;
+		height: 72px;
+		margin: -3px 0 0 -5px;
+	}
+}
+
+.search-for {
+	width: 100%;
+	text-align: center;
+	font-size: 22px;
+	font-family: 'Lato';
+}
+
+
+
+/*Placeholders*/
+::-webkit-input-placeholder {
+	font-size: $font-size-base;
+	@include serif-regular;
+}
+:-moz-placeholder {
+	font-size: $font-size-base;
+	@include serif-regular;
+}
+::-moz-placeholder {
+	font-size: $font-size-base;
+	@include serif-regular;
+}
+:-ms-input-placeholder {
+	font-size: $font-size-base;
+	@include serif-regular;
+}

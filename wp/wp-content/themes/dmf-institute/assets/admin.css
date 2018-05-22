@@ -1,0 +1,30 @@
+
+#dashboard-widgets canvas {
+	/*width: 100% !important;
+	height: 400px !important;*/
+	text-align: center !important;
+	margin: 0 auto;
+}
+
+.menu-icon-dashboard .wp-menu-image:before {
+	content: "\f184" !important;
+}
+
+#menu-dashboard .wp-menu-image:before {
+	content: "\f226" !important;
+}
+
+
+.post_object {
+	/*height: 300px !important;*/
+}
+
+/* Hide User Fields */
+
+
+#adinmenuback,
+#adminmenuwrap,
+#adminmenu {
+	/*background: #272727;*/
+}
+

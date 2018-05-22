@@ -1,0 +1,63 @@
+{
+    "key": "group_58b0aa2821106",
+    "title": "Category Info",
+    "fields": [
+        {
+            "key": "field_58b0aa38d1663",
+            "label": "Color",
+            "name": "category_color",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "blue": "Blue",
+                "red": "Red",
+                "yellow": "Yellow",
+                "green": "Green",
+                "tan": "Tan",
+                "impact-blue": "Impact Blue",
+                "impact-red": "Impact Red",
+                "pale-blue": "Pale Blue",
+                "midnight-blue": "Midnight Blue",
+                "sunrise-red": "Sunrise Red",
+                "trends-green": "Trends Green",
+                "transformations-purple": "Transformations Purple",
+                "tactics-blue": "Tactics Blue",
+                "targets-red": "Targets Red",
+                "tools-yellow": "Tools Yellow",
+                "team-turquoise": "Team Turquoise"
+            },
+            "default_value": [],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "taxonomy",
+                "operator": "==",
+                "value": "all"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1496259006
+}
