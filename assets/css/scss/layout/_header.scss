@@ -1,6 +1,7 @@
 /*Primary Nav*/
 .primary-nav {
-	background: $color-blue-dark;
+	// background: $color-blue-dark; nu_edit
+	background: $color-white;
 	border: none;
 	min-height: auto;
 
@@ -19,7 +20,8 @@
 			height: 100%;
 
 			> a {
-				color: $color-white;
+				// color: $color-white; nu_edit
+				color: $color-blue-med;
 				display: block;
 				font-size: ($font-size-sm - 1);
 				height: 100%;
@@ -43,7 +45,8 @@
 				}
 
 				&:hover {
-					background-color: $color-blue-med;
+					// background-color: $color-blue-med; nu_edit
+					color: $color-blue-light;
 				}
 			}
 			&:after {

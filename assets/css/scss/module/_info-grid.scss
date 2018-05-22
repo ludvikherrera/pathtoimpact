@@ -5,6 +5,12 @@
 		padding-top: 60px;
 	}
 
+	// nu_edit
+.info-grid .container {
+      width: 100%;
+}
+// nu_edit
+
 	@media (max-width: $screen-xs-max) {
 		.container {
 			padding: 0;
@@ -14,6 +20,10 @@
 	/*Grid Image*/
 	.grid-img {
 		position: relative;
+		// nu_edit
+    height: 50vh;
+    background: orange;
+    // nu_edit
 
 		&.has-overlay {
 			&:after {
@@ -40,15 +50,18 @@
 			width: 100%;
 		}
 		.grid-overlay {
-			left: 0;
-			padding: 15px;
+			// left: 0; nu_edit
+			left: 50%;
+			// padding: 15px; nu_edit
+			padding: 0px 15px 15px 0px;
 			position: absolute;
 			top: 50%;
 			z-index: 99;
 			@include translate(0, -50%);
 
 			@media (min-width: $screen-ms-min) {
-				padding: 30px 30px 30px 50px;
+				// padding: 30px 30px 30px 50px; nu_edit
+				padding: 0px 30px 30px 0px;
 				width: 70%;
 			}
 			@media (min-width: $screen-md-min) {
@@ -56,14 +69,16 @@
 			}
 
 			.heading-primary {
-				color: $color-blue-light;
+				// color: $color-blue-light; nu_edit
+				color: $color-red-med;
 
 				@media (min-width: $screen-md-min) {
 					margin-bottom: 30px;
 				}
 			}
 			p {
-				color: $color-white;
+				// color: $color-white; nu_edit
+				color: $color-black;
 				font-size: ($font-size-base - 2);
 				line-height: 22px;
 
@@ -77,8 +92,12 @@
 
 	/*Grid Row*/
 	.colored-grid {
-		background: $color-blue-dark;
+		// background: $color-blue-dark; nu_edit
 		position: relative;
+		// nu_edit
+	width: 50%;
+	left: 50%;
+	// nu_edit
 
 		&.grid-sm {
 			.grid-item {
@@ -106,23 +125,30 @@
 			height: 200px;
 			position: relative;
 			text-align: center;
+			// nu_edit
+    background: $color-yellow;
+    border-radius: 50%;
+    height: 12.5vw;
+    margin-top: 10px;
+    // nu_edit
 
 			@media (min-width: $screen-md-min) {
-				height: 300px;
+				// height: 300px; nu_edit
+				height: 12.5vw;
 			}
 
-			&.grid-1 {
-				background: $color-red-med;
-			}
-			&.grid-2 {
-				background: rgba($color-red-med, .8);
-			}
-			&.grid-3 {
-				background: rgba($color-red-med, .7);
-			}
-			&.grid-4 {
-				background: rgba($color-red-med, .6);
-			}
+			// &.grid-1 {
+			// 	background: $color-red-med;
+			// }
+			// &.grid-2 {
+			// 	background: rgba($color-red-med, .8);
+			// }
+			// &.grid-3 {
+			// 	background: rgba($color-red-med, .7);
+			// }
+			// &.grid-4 {
+			// 	background: rgba($color-red-med, .6);
+			// }
 		}
 		.grid-wrap {
 			padding: 20px;
@@ -141,6 +167,9 @@
 			line-height: 20px;
 			margin-top: 20px;
 			@include sans-bold;
+			// nu_edit
+			text-transform: uppercase;
+			// nu_edit
 		}
 	}
 	.grid-content {
@@ -168,7 +197,8 @@
 		@media (min-width: $screen-md-min) {
 			height: 80px;
 			line-height: 50px;
-			width: 50%;
+			// width: 50%; nu_edit
+			width: 100%;
 
 			&:after {
 				height: 100%;

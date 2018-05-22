@@ -158,7 +158,8 @@
 			}
 		}
 		.number {
-			color: $color-blue-light;
+			// color: $color-blue-light; nu_edit
+			color: $color-blue-med;
 			display: block;
 			font-size: ($font-size-md - 4);
 			line-height: 40px;
@@ -179,7 +180,8 @@
 			}
 		}
 		.description {
-			color: $color-gray-med;
+			// color: $color-gray-med; nu_edit
+			color: $color-black;
 			display: block;
 			font-size: ($font-size-xs + 1);
 			line-height: 18px;
