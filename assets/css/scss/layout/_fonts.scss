@@ -136,21 +136,42 @@ html:hover [class^="ss-"]{-ms-zoom: 1;}
 
 
 /*Font Mixins*/
+// @mixin sans-regular {
+// 	font-family: 'Lato';
+// }
+// @mixin sans-light {
+// 	font-family: 'Lato';
+// 	font-weight: 300;
+// }
+// @mixin sans-bold {
+// 	font-family: 'Lato';
+// 	font-weight: bold;
+// }
+// @mixin serif-regular {
+// 	font-family: 'Merriweather';
+// } nu_edit
+
+// @mixin serif-italic {
+// 	font-family: 'Merriweather';
+// 	font-style: italic;
+// } nu_edit
+
 @mixin sans-regular {
-	font-family: 'Lato';
+	font-family: 'Montserrat';
+	font-weight: 500;
 }
 @mixin sans-light {
-	font-family: 'Lato';
+	font-family: 'Montserrat';
 	font-weight: 300;
 }
 @mixin sans-bold {
-	font-family: 'Lato';
-	font-weight: bold;
+	font-family: 'Montserrat';
+	font-weight: 700;
 }
 @mixin serif-regular {
-	font-family: 'Merriweather';
+	font-family: 'Sentinel';
 }
 @mixin serif-italic {
-	font-family: 'Merriweather';
+	font-family: 'Sentinel';
 	font-style: italic;
 }

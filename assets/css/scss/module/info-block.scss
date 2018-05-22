@@ -7,6 +7,23 @@
 /*Info Block*/
 .info-block {
 	padding-bottom: 50px;
+	// nu_edit
+
+
+	.container {
+		width: 100%;
+		background-image:url("https://lh4.googleusercontent.com/RTE2YDo99gpaqwzhqAFK5fuplXKyWt0sbFrpKXx3fxllbd-bZTYbGbO0gCc-J75LhcV2AODh9VzqdQ=w2880-h2358-rw");
+	  background-size: contain;
+		background-repeat: no-repeat;
+		background-position: left;
+	}
+// nu_edit
+
+// nu_edit
+.heading-alternate {
+	padding-top: 130px;
+}
+// nu_edit
 
 	@media (max-width: $screen-xs-max) {
 		.container {
@@ -26,6 +43,7 @@
 		.heading-primary {
 			margin: 10px 0;
 
+
 			@media (max-width: $screen-sm-max) {
 				br {
 					display: none;
@@ -39,6 +57,7 @@
 		.heading-secondary {
 			margin-bottom: 25px;
 		}
+
 		.btn-lg {
 			margin-top: 30px;
 			padding: 12px 50px;
@@ -185,7 +204,7 @@
 			display: block;
 			font-size: ($font-size-xs + 1);
 			line-height: 18px;
-			@include sans-regular;
+			@include serif-regular;
 
 			@media (min-width: $screen-sm-min) {
 				font-size: $font-size-base;
