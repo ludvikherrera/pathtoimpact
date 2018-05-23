@@ -98,6 +98,7 @@ main {
 	line-height: 42px;
 	@include serif-italic;
 	color: $color-red-med;
+	font-weight: bold;
 
 	@media (min-width: $screen-sm-min) {
 		font-size: $font-size-lg;

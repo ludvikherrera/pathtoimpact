@@ -22,7 +22,11 @@
 		position: relative;
 		// nu_edit
     height: 50vh;
-    background: orange;
+    // background: orange;
+		background-image: url('/assets/img/event-default.jpg');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
     // nu_edit
 
 		&.has-overlay {
@@ -126,15 +130,16 @@
 			position: relative;
 			text-align: center;
 			// nu_edit
-    background: $color-yellow;
-    border-radius: 50%;
-    height: 12.5vw;
-    margin-top: 10px;
-    // nu_edit
+			background: gray;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			// height: 12.5vw;
+			// nu_edit
 
 			@media (min-width: $screen-md-min) {
 				// height: 300px; nu_edit
-				height: 12.5vw;
+				// height: 12.5vw;
 			}
 
 			// &.grid-1 {
@@ -156,19 +161,30 @@
 			top: 50%;
 			transform: translateY(-50%);
 			width: 100%;
+			// nu_edit
+			background: $color-yellow;
+			border-radius: 50%;
+			width: 125px;
+			height: 125px;
+			display: flex;
+			align-items: center;
+			// nu_edit
 
 			img {
 				max-width: 100%;
 			}
 		}
 		.grid-title {
-			color: $color-white;
+			// color: $color-white; nu_edit
+			color: $color-black;
 			display: block;
 			line-height: 20px;
-			margin-top: 20px;
+			// margin-top: 20px; nu_edit
+			margin: 10px 0;
 			@include sans-bold;
 			// nu_edit
 			text-transform: uppercase;
+			font-size: 12px;
 			// nu_edit
 		}
 	}
