@@ -1,10 +1,12 @@
 /*Footer - Primary*/
 .site-footer {
-	background-image: url('/assets/img/footer-bg.jpg');
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding-bottom: 100px;
+	// background-image: url('/assets/img/footer-bg.jpg'); nu_edit
+	// background-position: center;
+	// background-repeat: no-repeat;
+	// background-size: cover;
+	background-color: $color-blue-med;
+	// padding-bottom: 100px;
+	padding-bottom: 20px;
 	padding-top: 60px;
 
 	.heading-secondary {
@@ -32,7 +34,8 @@
 			margin-bottom: 10px;
 
 			a {
-				color: $color-blue-light;
+				// color: $color-blue-light; nu_edit
+				color: $color-white;
 				padding: 15px 0;
 			}
 		}
@@ -114,17 +117,23 @@
 		}
 	}
 	.copyright {
-		margin-top: 20px;
+		// margin-top: 20px; nu_edit
+		background-color: $color-blue-dark; //nu _edit
+		position: absolute; //nu _edit
+		width: 100vw; //nu _edit
+		left: 0; //nu _edit
+		margin: 20px 0 0 0; //nu _edit
+		padding-bottom: 50px;
 
 		@media (min-width: $screen-sm-min) {
-			margin-top: 40px;
+			// margin-top: 40px; nu_edit
 		}
 
 		&:before {
-			border-top: solid 3px rgba($color-blue-med, .5);
-			content: '';
-			display: block;
-			margin: 0 15px 20px 15px;
+			// border-top: solid 3px rgba($color-blue-med, .5);
+			// content: '';
+			// display: block;
+			// margin: 0 15px 20px 15px;
 
 			@media (min-width: $screen-sm-min) {
 				margin: 0 15px 50px 15px;
@@ -132,7 +141,8 @@
 		}
 
 		p {
-			color: $color-blue-xlight;
+			// color: $color-blue-xlight; nu_edit
+			color: $color-white;
 			font-size: $font-size-xs;
 			line-height: 20px;
 

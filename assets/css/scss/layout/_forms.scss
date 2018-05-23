@@ -122,9 +122,11 @@
 
 	.gform_footer {
 		input[type=submit] {
-			background-color: $color-blue-dark;
+			// background-color: $color-blue-dark; nu_edit
+			background-color: $color-red-med;
 			color: #fff;
-			border: none;
+			// border: none; nu_edit
+			border: 1px solid $color-white;
 		    font-size: 15px;
 		    letter-spacing: 3px;
 		    line-height: 24px;
