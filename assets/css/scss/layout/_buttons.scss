@@ -18,7 +18,8 @@
 		@include sans-regular;
 	}
 	&.btn-red {
-		background: $color-red-med;
+		// background: $color-red-med; nu_edit
+		background: $color-red-light;
 		color: $color-white;
 
 		&:hover {

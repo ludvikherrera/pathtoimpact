@@ -8,6 +8,7 @@
 	/*Navbar Nav*/
 	.navbar-nav {
 		margin: 0;
+		width: 100%;
 
 		@media (max-width: $screen-xs-max) {
 			clear: both;
@@ -76,15 +77,28 @@
 
 			&.btn,
 			.btn {
-				background: $color-red-med;
-				margin: 15px;
-				padding: 5px 15px;
+				// background: $color-red-med; nu_edit
+				// margin: 15px; nu_edit
+				// padding: 5px 15px; nu_edit
+
+				//nu_edit
+				@media (min-width: 768px) {
+					float: right !important;
+					margin-right: 1px;
+				}
+				//nu_edit
 
 				@media (max-width: 480px) {
 
 				}
 
 				a {
+					// nu_edit
+					color: $color-white;
+					// nu_edit
+					&:hover {
+						background-color: transparent;
+					}
 					@media (max-width: 480px) {
 						background: none;
 						line-height: 30px;
@@ -216,7 +230,8 @@
 			}
 
 			> a {
-				color: $color-black;
+				// color: $color-black; nu_edit--
+				color: $color-blue-light;
 				padding: 10px 20px;
 
 				&:hover, &:active, &:focus {
@@ -345,9 +360,12 @@
 	}
 
 	.form-control {
-		background: $color-blue-med url('/assets/img/icon-search.svg') no-repeat 20px 50%;
-		border: none;
-		color: $color-white;
+		// background: $color-blue-med url('/assets/img/icon-search.svg') no-repeat 20px 50%;
+		background: $color-white url('/assets/img/icon-search.svg') no-repeat 20px 50%;
+		// border: none;
+		border: 1px solid $color-blue-light;
+		// color: $color-white;
+		color: $color-blue-light;
 		font-size: $font-size-sm;
 		height: 50px;
 		letter-spacing: 3px;
@@ -355,9 +373,14 @@
 		text-transform: uppercase;
 		width: 100%;
 		@include sans-bold;
+		// nu_edit
+		font-size: x-small;
+		// nu_edit
+
+
 
 		@media (min-width: $screen-sm-min) {
-			height: 100%;
+			// height: 100%; nu_edit
 			padding-left: 60px;
 		}
 		@media (min-width: $screen-lg-min) {
@@ -365,7 +388,8 @@
 		}
 
 		&:focus {
-			background-color: lighten($color-blue-med, 10%);
+			// background-color: lighten($color-blue-med, 10%); nu_edit
+			background-color: $color-gray-xlight;
 			border: none;
 
 			&::-webkit-input-placeholder {
@@ -389,35 +413,51 @@
 
 	/*Placeholders*/
 	::-webkit-input-placeholder {
-		color: $color-white;
+		// color: $color-white; nu_edit
+		color: $color-blue-light;
 		font-size: $font-size-sm;
 		letter-spacing: 3px;
 		opacity: 1;
 		text-transform: uppercase;
 		@include sans-bold;
+		// nu_edit
+		font-size: x-small;
+		//nu_edit
 	}
 	:-moz-placeholder {
-		color: $color-white;
+		// color: $color-white; nu_edit
+		color: $color-blue-light;
 		font-size: $font-size-sm;
 		letter-spacing: 3px;
 		opacity: 1;
 		text-transform: uppercase;
 		@include sans-bold;
+		// nu_edit
+		font-size: x-small;
+		//nu_edit
 	}
 	::-moz-placeholder {
-		color: $color-white;
+		// color: $color-white; nu_edit
+		color: $color-blue-light;
 		font-size: $font-size-sm;
 		letter-spacing: 3px;
 		opacity: 1;
 		text-transform: uppercase;
 		@include sans-bold;
+		// nu_edit
+		font-size: x-small;
+		//nu_edit
 	}
 	:-ms-input-placeholder {
-		color: $color-white;
+		// color: $color-white; nu_edit
+		color: $color-blue-light;
 		font-size: $font-size-sm;
 		letter-spacing: 3px;
 		opacity: 1;
 		text-transform: uppercase;
 		@include sans-bold;
+		// nu_edit
+		font-size: x-small;
+		//nu_edit
 	}
 }
