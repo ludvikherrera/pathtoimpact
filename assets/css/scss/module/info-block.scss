@@ -7,29 +7,33 @@
 /*Info Block*/
 .info-block {
 	padding-bottom: 50px;
-	// nu_edit
+	background-image: url('/assets/img/impact_icon_blue50.png'); // nu_edit
+	background-size: contain; // nu_edit
+	background-repeat: no-repeat; // nu_edit
+	background-position: left; // nu_edit
 
 
 	.container {
-		width: 100%;
-		background-image:url("https://lh4.googleusercontent.com/RTE2YDo99gpaqwzhqAFK5fuplXKyWt0sbFrpKXx3fxllbd-bZTYbGbO0gCc-J75LhcV2AODh9VzqdQ=w2880-h2358-rw");
-	  background-size: contain;
-		background-repeat: no-repeat;
-		background-position: left;
+		width: 100%; // nu_edit
 	}
-// nu_edit
 
-// nu_edit
 .heading-alternate {
-	padding: 150px 40px 40px 40px;
+	padding: 40px; // nu_edit
+	height: 100%; // nu_edit
+	display: flex; // nu_edit
+	align-items: center; // nu_edit
 }
-// nu_edit
+
+svg {
+	height: 60px;
+}
 
 	@media (max-width: $screen-xs-max) {
 		.container {
 			padding-left: 0;
 			padding-right: 0;
 		}
+
 	}
 
 	.block-wrap {
@@ -48,6 +52,7 @@
 				br {
 					display: none;
 				}
+
 			}
 			@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
 				font-size: ($font-size-md + 4);
@@ -71,6 +76,8 @@
 		height: 100%;
 		padding: 20px;
 		position: relative;
+		display: flex; // nu_edit
+		align-items: center; // nu_edit
 
 		@media (min-width: $screen-md-min) {
 			padding: 100px 40px 40px 40px;
@@ -164,7 +171,7 @@
 
 	/*Info Details*/
 	.info-details {
-		margin-bottom: 40px;
+		// margin-bottom: 40px;
 		text-align: center;
 
 		[class*='col-'] {
@@ -182,12 +189,14 @@
 			display: block;
 			font-size: ($font-size-md - 4);
 			line-height: 40px;
-			margin-bottom: 15px;
+			// margin-bottom: 15px; nu_edit
 			@include sans-bold;
 
 			@media (min-width: $screen-sm-min) {
 				font-size: $font-size-md;
-				margin-bottom: 30px;
+				// margin-bottom: 30px; nu_edit
+				margin-bottom: 10px;
+				margin-top: 10px;
 			}
 
 			&.lg {
