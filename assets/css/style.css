@@ -5261,7 +5261,7 @@ main a {
   main a:hover {
     color: #414141; }
 main .lead {
-  font-size: 48px;
+  font-size: 3.75em;
   line-height: 36px;
   font-family: 'Montserrat';
   font-weight: 300; }
@@ -5284,11 +5284,26 @@ main .lead {
   margin-bottom: 5px;
   text-transform: uppercase;
   font-family: 'Montserrat';
+<<<<<<< HEAD
   font-weight: 300; }
+=======
+  font-weight: 700; }
+>>>>>>> c10a073c9a4a6a3ecc51dd35eaaaa30fc6472c40
   @media (min-width: 768px) {
     .heading-primary {
-      font-size: 48px;
+      font-size: 3.75em;
       line-height: 46px; } }
+  .heading-primary::before {
+    content: " ";
+    display: block;
+    width: 5em;
+    height: 5em;
+    background: rgba(255, 235, 71, 0.5);
+    border-radius: 2.5em;
+    position: absolute;
+    top: calc( -1.5em );
+    left: calc( -2.5em );
+    z-index: -1; }
 
 .heading-secondary {
   display: block;
@@ -5345,7 +5360,11 @@ main .lead {
   font-weight: bold; }
   @media (min-width: 768px) {
     .heading-alternate {
+<<<<<<< HEAD
       font-size: 48px;
+=======
+      font-size: 3.75em;
+>>>>>>> c10a073c9a4a6a3ecc51dd35eaaaa30fc6472c40
       line-height: 46px; } }
 
 .page-title {
@@ -6055,7 +6074,7 @@ main .lead {
         font-size: 24px; }
         @media (min-width: 768px) {
           .info-block .info-details .number.lg {
-            font-size: 42px; } }
+            font-size: -2.25em; } }
     .info-block .info-details .description {
       color: #414141;
       display: block;
@@ -6075,17 +6094,47 @@ main .lead {
     padding-bottom: 60px;
     padding-top: 60px; }
   .info-grid .info-grid .container {
+<<<<<<< HEAD
     width: 100%; }
+=======
+    width: 100%;
+    position: relative;
+    border: 1px solid red;
+    margin-top: 2em; }
+  .info-grid .info-grid h2 {
+    font-size: 2rem;
+    display: block;
+    border: 1px solid green;
+    padding-left: 50vw;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 25vw; }
+  .info-grid .info-grid p {
+    padding-left: 50vw; }
+  .info-grid .info-grid .row {
+    padding-left: 50vw;
+    background: silver;
+    position: relative;
+    top: 80px; }
+>>>>>>> c10a073c9a4a6a3ecc51dd35eaaaa30fc6472c40
   @media (max-width: 767px) {
     .info-grid .container {
       padding: 0; } }
   .info-grid .grid-img {
     position: relative;
+<<<<<<< HEAD
     height: 50vh;
     background-image: url("/assets/img/event-default.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; }
+=======
+    min-height: 30vh;
+    background-image: url("/assets/img/icon_arrow_uptrend.png");
+    background-position: calc( 50% - 10em ) 35%;
+    background-repeat: no-repeat;
+    background-size: 300px; }
+>>>>>>> c10a073c9a4a6a3ecc51dd35eaaaa30fc6472c40
     .info-grid .grid-img.has-overlay:after {
       background-image: url("/assets/img/info-grid-overlay-sm.png");
       background-position: center;
@@ -6195,10 +6244,15 @@ main .lead {
     color: #FFF;
     line-height: 22px; }
   .info-grid .btn {
+    background: red;
+    height: 50px;
+    width: calc( 50% );
+    text-decoration: none;
+    color: white;
+    text-align: left;
+    padding: 15px calc( 10% );
     clear: both;
     display: block;
-    padding: 15px 30px;
-    text-align: left;
     z-index: 99; }
     @media (min-width: 992px) {
       .info-grid .btn {
@@ -6207,7 +6261,17 @@ main .lead {
         width: 100%; }
         .info-grid .btn:after {
           height: 100%;
-          margin: 0; } }
+          margin: 0; }
+        .info-grid .btn:before {
+          content: " ";
+          display: block;
+          background: url("/assets/img/arrows_dotted_line.png") no-repeat left;
+          background-size: cover;
+          height: 80px;
+          position: absolute;
+          top: 0;
+          left: -100%;
+          width: 100%; } }
     @media (min-width: 992px) {
       .info-grid .btn.btn-top {
         position: absolute;
