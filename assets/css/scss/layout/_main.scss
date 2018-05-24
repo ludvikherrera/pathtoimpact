@@ -364,7 +364,7 @@ main {
 	width: 100%;
 	margin: 48px 0;}
 	a {
-		color: $color-black;
+		color: $color-blue-med;
 		&:hover {
 			color: $color-blue-light;
 		}
@@ -377,4 +377,5 @@ main {
 
 .adr, .org, .email, .tel {
 	@include sans-bold;
+	color: $color-blue-med;
 }
