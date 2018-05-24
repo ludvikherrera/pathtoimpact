@@ -39,12 +39,25 @@ main {
 	line-height: 42px;
 	margin-bottom: 5px;
 	text-transform: uppercase;
-	@include sans-light;
+	@include sans-bold;
 
 	@media (min-width: $screen-sm-min) {
 		font-size: $font-size-lg;
 		line-height: 46px;
 	}
+    
+    &::before {
+    content: " ";
+    display: block;
+    width: 5em;
+    height: 5em;
+    background: rgba(255,235,71,.5);
+    border-radius: 2.5em;
+    position: absolute;
+    top: calc( -1.5em );
+    left:calc( -2.5em );
+    z-index: -1;        
+    }
 }
 .heading-secondary {
 	display: block;
