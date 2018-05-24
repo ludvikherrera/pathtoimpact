@@ -7,10 +7,53 @@
 /*Info Block*/
 .info-block {
 	padding-bottom: 50px;
-	background-image: url('/assets/img/impact_icon_blue50.png'); // nu_edit
+
 	background-size: contain; // nu_edit
 	background-repeat: no-repeat; // nu_edit
 	background-position: left; // nu_edit
+
+	&.stats-block { // nu_edit
+		background-image: url('/assets/img/impact_icon_blue50.png'); // nu_edit
+
+		svg { // nu_edit
+			height: 60px; // nu_edit
+			@media (max-width: $screen-md-max) { // nu_edit
+		height: 45px; // nu_edit
+			} // nu_edit
+		} // nu_edit
+
+		.info-content { // nu_edit
+			display: flex; // nu_edit
+			align-items: center; // nu_edit
+		} // nu_edit
+
+	}
+
+	&.upcoming-events {
+		height: 600px;
+
+		h2 {
+			padding: 0 40px;
+			color: $color-red-med;
+		}
+		div.left-col {
+				background: purple;
+				height: 600px;
+		}
+		.info-content.info-overlay {
+			padding: 20px;
+			.cal-block {
+				div:first-of-type {
+					padding-right: 0;
+				}
+			}
+			h3 {
+				color: $color-red-med;
+			}
+			p{color: $color-black;}
+
+		}
+	}
 
 
 	.container {
@@ -22,13 +65,6 @@
 	height: 100%; // nu_edit
 	display: flex; // nu_edit
 	align-items: center; // nu_edit
-}
-
-svg {
-	height: 60px;
-	@media (max-width: $screen-md-max) {
-height: 45px;
-	}
 }
 
 	@media (max-width: $screen-xs-max) {
@@ -79,8 +115,6 @@ height: 45px;
 		height: 100%;
 		padding: 20px;
 		position: relative;
-		display: flex; // nu_edit
-		align-items: center; // nu_edit
 
 		@media (min-width: $screen-md-min) {
 			padding: 100px 40px 40px 40px;
