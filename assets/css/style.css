@@ -5261,7 +5261,7 @@ main a {
   main a:hover {
     color: #414141; }
 main .lead {
-  font-size: 3.75em;
+  font-size: 3em;
   line-height: 36px;
   font-family: 'Montserrat';
   font-weight: 300; }
@@ -5284,21 +5284,32 @@ main .lead {
   margin-bottom: 5px;
   text-transform: uppercase;
   font-family: 'Montserrat';
+<<<<<<< HEAD
   font-weight: 700; }
+=======
+  font-weight: 300; }
+>>>>>>> fca417c44befe8ccbecb7b8d61b4c2da377b9db9
   @media (min-width: 768px) {
     .heading-primary {
-      font-size: 3.75em;
+      font-size: 3em;
       line-height: 46px; } }
-  .heading-primary::before {
+  .heading-primary.hlt-title {
+    font-family: 'Montserrat';
+    font-weight: 700; }
+    @media (min-width: 768px) {
+      .heading-primary.hlt-title {
+        font-size: 3.75em;
+        line-height: 1em; } }
+  .heading-primary.hlt-title::before {
     content: " ";
     display: block;
-    width: 5em;
-    height: 5em;
+    width: 4em;
+    height: 4em;
     background: rgba(255, 235, 71, 0.5);
-    border-radius: 2.5em;
+    border-radius: 2em;
     position: absolute;
-    top: calc( -1.5em );
-    left: calc( -2.5em );
+    top: calc( -1.125em );
+    left: calc( -2em );
     z-index: -1; }
 
 .heading-secondary {
@@ -5356,7 +5367,11 @@ main .lead {
   font-weight: bold; }
   @media (min-width: 768px) {
     .heading-alternate {
+<<<<<<< HEAD
       font-size: 3.75em;
+=======
+      font-size: 3em;
+>>>>>>> fca417c44befe8ccbecb7b8d61b4c2da377b9db9
       line-height: 46px; } }
 
 .page-title {
@@ -6103,7 +6118,7 @@ main .lead {
         font-size: 24px; }
         @media (min-width: 768px) {
           .info-block .info-details .number.lg {
-            font-size: -2.25em; } }
+            font-size: -3em; } }
     .info-block .info-details .description {
       color: #414141;
       display: block;
@@ -6122,6 +6137,7 @@ main .lead {
   .info-grid.shim {
     padding-bottom: 60px;
     padding-top: 60px; }
+<<<<<<< HEAD
   .info-grid .info-grid .container {
     width: 100%;
     position: relative;
@@ -6142,6 +6158,8 @@ main .lead {
     background: silver;
     position: relative;
     top: 80px; }
+=======
+>>>>>>> fca417c44befe8ccbecb7b8d61b4c2da377b9db9
   @media (max-width: 767px) {
     .info-grid .container {
       padding: 0; } }
@@ -6172,7 +6190,7 @@ main .lead {
       height: auto;
       width: 100%; }
     .info-grid .grid-img .grid-overlay {
-      left: 50%;
+      left: 0;
       padding: 0px 15px 15px 0px;
       position: absolute;
       top: 50%;
@@ -6188,6 +6206,8 @@ main .lead {
       @media (min-width: 992px) {
         .info-grid .grid-img .grid-overlay {
           width: 50%; } }
+      .info-grid .grid-img .grid-overlay.lyt-ctr {
+        left: 50%; }
       .info-grid .grid-img .grid-overlay .heading-primary {
         color: #EE2737; }
         @media (min-width: 992px) {
