@@ -26,6 +26,9 @@
 
 svg {
 	height: 60px;
+	@media (max-width: $screen-md-max) {
+height: 45px;
+	}
 }
 
 	@media (max-width: $screen-xs-max) {

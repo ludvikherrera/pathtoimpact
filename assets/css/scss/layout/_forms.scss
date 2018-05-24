@@ -95,7 +95,7 @@
 /* Gravity Forms */
 .gform_wrapper {
 
-	background-color: #f9f9f9;
+	// background-color: #f9f9f9; nu_edit
 	padding: 20px 30px;
 
 	.gform_body {
@@ -105,12 +105,15 @@
 			font-weight: normal;
 			margin-bottom: 7px;
 			@include sans-light;
+			color: $color-blue-med; //nu_edit
 		}
 
 		input,
 		textarea {
 			outline: none;
-			border: 1px solid #cccccc;
+			// border: 1px solid #cccccc; nu_edit
+			border: 1px solid $color-blue-light;
+
 		}
 
 		.ginput_complex {

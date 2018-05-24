@@ -45,6 +45,7 @@ main {
 		font-size: $font-size-lg;
 		line-height: 46px;
 	}
+<<<<<<< HEAD
     
     &.hlt-title {
         @include sans-bold;
@@ -57,6 +58,10 @@ main {
     }
     
     &.hlt-title::before {
+=======
+
+    &::before {
+>>>>>>> 69ffe1d46050e930aa8465cd00708b1a6ef6b94e
     content: " ";
     display: block;
     width: 4em;
@@ -64,9 +69,15 @@ main {
     background: rgba(255,235,71,.5);
     border-radius: 2em;
     position: absolute;
+<<<<<<< HEAD
     top: calc( -1.125em );
     left:calc( -2em );
     z-index: -1;        
+=======
+    top: calc( -1.5em );
+    left:calc( -2.5em );
+    z-index: -1;
+>>>>>>> 69ffe1d46050e930aa8465cd00708b1a6ef6b94e
     }
 }
 .heading-secondary {
@@ -365,4 +376,27 @@ main {
 /* Sharing buttons */
 .fb-share-button {
 	line-height: 10px;
+}
+
+// Contact Styles nu_edit
+
+.contact-left-col {
+	img {
+	width: 100%;
+	margin: 48px 0;}
+	a {
+		color: $color-blue-med;
+		&:hover {
+			color: $color-blue-light;
+		}
+	}
+}
+
+.adr {
+		margin-bottom: 16px;
+}
+
+.adr, .org, .email, .tel {
+	@include sans-bold;
+	color: $color-blue-med;
 }
