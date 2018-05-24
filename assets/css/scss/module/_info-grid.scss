@@ -7,8 +7,33 @@
 
 	// nu_edit
 .info-grid .container {
-      width: 100%;
-}
+    width: 100%;
+    position: relative;
+    border: 1px solid red;
+    margin-top: 2em;
+    }
+    
+    .info-grid h2 {
+    font-size: 2rem;
+    display: block;
+    border: 1px solid green;
+    padding-left: 50vw;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 25vw;
+    }
+    
+    .info-grid p {
+    padding-left: 50vw;
+    }
+    
+    .info-grid .row {
+    padding-left: 50vw;
+    background: silver;
+    position: relative;
+    top: 80px;
+    }    
+  
 // nu_edit
 
 	@media (max-width: $screen-xs-max) {
@@ -21,12 +46,12 @@
 	.grid-img {
 		position: relative;
 		// nu_edit
-    height: 50vh;
+    min-height: 30vh;
     // background: orange;
-		background-image: url('/assets/img/event-default.jpg');
-		background-position: center;
+		background-image: url('/assets/img/icon_arrow_uptrend.png');
+		background-position: calc( 50% - 10em ) 35%;
 		background-repeat: no-repeat;
-		background-size: cover;
+		background-size: 300px;
     // nu_edit
 
 		&.has-overlay {
@@ -204,10 +229,20 @@
 		line-height: 22px;
 	}
 	.btn {
+        // nu edit;
+    background: red;
+    height: 50px;
+    width: calc( 50% );
+    text-decoration: none;
+    color: white;
+    text-align: left;
+    padding: 15px calc( 10% );
+        // nu edit end;
+        
 		clear: both;
 		display: block;
-		padding: 15px 30px;
-		text-align: left;
+		// nu edit   padding: 15px 30px;
+		// nu edit text-align: left;
 		z-index: 99;
 
 		@media (min-width: $screen-md-min) {
@@ -220,6 +255,18 @@
 				height: 100%;
 				margin: 0;
 			}
+            
+            &:before {
+                content: " ";
+                display: block;
+                background: url('/assets/img/arrows_dotted_line.png') no-repeat left;
+                background-size: cover;
+                height: 80px;
+                position: absolute;
+                top: 0;
+                left: -100%;
+                width: 100%;
+            }
 		}
 		&.btn-top {
 			@media (min-width: $screen-md-min) {
