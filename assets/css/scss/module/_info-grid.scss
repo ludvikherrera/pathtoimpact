@@ -12,7 +12,7 @@
     border: 1px solid red;
     margin-top: 2em;
     }
-    
+
     .info-grid h2 {
     font-size: 2rem;
     display: block;
@@ -22,18 +22,18 @@
     text-decoration: none;
     width: 25vw;
     }
-    
+
     .info-grid p {
     padding-left: 50vw;
     }
-    
+
     .info-grid .row {
     padding-left: 50vw;
     background: silver;
     position: relative;
     top: 80px;
-    }    
-  
+    }
+
 // nu_edit
 
 	@media (max-width: $screen-xs-max) {
@@ -123,10 +123,14 @@
 	.colored-grid {
 		// background: $color-blue-dark; nu_edit
 		position: relative;
-		// nu_edit
-	width: 50%;
-	left: 50%;
-	// nu_edit
+		width: 50%; // nu_edit
+		left: 50%; // nu_edit
+
+
+	@media (max-width: $screen-sm-max) {
+		width: 100%;
+		left: 0%;
+	}
 
 		&.grid-sm {
 			.grid-item {
@@ -154,13 +158,12 @@
 			height: 200px;
 			position: relative;
 			text-align: center;
-			// nu_edit
-			background: gray;
-			display: flex;
-			align-items: center;
-			justify-content: center;
+			//background: gray;  nu_edit
+			display: flex; // nu_edit
+			align-items: center; // nu_edit
+			justify-content: center; // nu_edit
 			// height: 12.5vw;
-			// nu_edit
+
 
 			@media (min-width: $screen-md-min) {
 				// height: 300px; nu_edit
@@ -186,17 +189,20 @@
 			top: 50%;
 			transform: translateY(-50%);
 			width: 100%;
-			// nu_edit
-			background: $color-yellow;
-			border-radius: 50%;
-			width: 125px;
-			height: 125px;
-			display: flex;
-			align-items: center;
-			// nu_edit
+			background: $color-yellow; // nu_edit
+			border-radius: 50%; // nu_edit
+			width: 125px; // nu_edit
+			height: 125px; // nu_edit
+			display: flex; // nu_edit
+			align-items: center; // nu_edit
 
 			img {
 				max-width: 100%;
+			}
+
+			@media (max-width: $screen-md-max) and (min-width: $screen-sm-max) {
+				width: 115px;
+				height: 115px;
 			}
 		}
 		.grid-title {
@@ -207,10 +213,11 @@
 			// margin-top: 20px; nu_edit
 			margin: 10px 0;
 			@include sans-bold;
-			// nu_edit
-			text-transform: uppercase;
-			font-size: 12px;
-			// nu_edit
+			text-transform: uppercase; // nu_edit
+			font-size: 12px; // nu_edit
+			// @media (max-width: $screen-md-max) {
+			// 	font-size: 10px;
+			// }
 		}
 	}
 	.grid-content {
@@ -238,7 +245,7 @@
     text-align: left;
     padding: 15px calc( 10% );
         // nu edit end;
-        
+
 		clear: both;
 		display: block;
 		// nu edit   padding: 15px 30px;
@@ -255,7 +262,7 @@
 				height: 100%;
 				margin: 0;
 			}
-            
+
             &:before {
                 content: " ";
                 display: block;
