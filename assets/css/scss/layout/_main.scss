@@ -39,23 +39,33 @@ main {
 	line-height: 42px;
 	margin-bottom: 5px;
 	text-transform: uppercase;
-	@include sans-bold;
+	@include sans-light;
 
 	@media (min-width: $screen-sm-min) {
 		font-size: $font-size-lg;
 		line-height: 46px;
 	}
     
-    &::before {
+    &.hlt-title {
+        @include sans-bold;
+        
+    @media (min-width: $screen-sm-min) {
+		font-size: $font-size-lg * 1.25;
+		line-height: 1em;
+	}
+        
+    }
+    
+    &.hlt-title::before {
     content: " ";
     display: block;
-    width: 5em;
-    height: 5em;
+    width: 4em;
+    height: 4em;
     background: rgba(255,235,71,.5);
-    border-radius: 2.5em;
+    border-radius: 2em;
     position: absolute;
-    top: calc( -1.5em );
-    left:calc( -2.5em );
+    top: calc( -1.125em );
+    left:calc( -2em );
     z-index: -1;        
     }
 }

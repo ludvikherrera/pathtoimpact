@@ -4,38 +4,7 @@
 		padding-bottom: 60px;
 		padding-top: 60px;
 	}
-
-	// nu_edit
-.info-grid .container {
-    width: 100%;
-    position: relative;
-    border: 1px solid red;
-    margin-top: 2em;
-    }
     
-    .info-grid h2 {
-    font-size: 2rem;
-    display: block;
-    border: 1px solid green;
-    padding-left: 50vw;
-    text-transform: uppercase;
-    text-decoration: none;
-    width: 25vw;
-    }
-    
-    .info-grid p {
-    padding-left: 50vw;
-    }
-    
-    .info-grid .row {
-    padding-left: 50vw;
-    background: silver;
-    position: relative;
-    top: 80px;
-    }    
-  
-// nu_edit
-
 	@media (max-width: $screen-xs-max) {
 		.container {
 			padding: 0;
@@ -46,13 +15,13 @@
 	.grid-img {
 		position: relative;
 		// nu_edit
-    min-height: 30vh;
-    // background: orange;
+        min-height: 30vh;
+        // background: orange;
 		background-image: url('/assets/img/icon_arrow_uptrend.png');
 		background-position: calc( 50% - 10em ) 35%;
 		background-repeat: no-repeat;
 		background-size: 300px;
-    // nu_edit
+        // nu_edit
 
 		&.has-overlay {
 			&:after {
@@ -80,7 +49,7 @@
 		}
 		.grid-overlay {
 			// left: 0; nu_edit
-			left: 50%;
+			left: 0;
 			// padding: 15px; nu_edit
 			padding: 0px 15px 15px 0px;
 			position: absolute;
@@ -96,6 +65,10 @@
 			@media (min-width: $screen-md-min) {
 				width: 50%;
 			}
+            
+            &.lyt-ctr {
+                left: 50%;
+            }
 
 			.heading-primary {
 				// color: $color-blue-light; nu_edit
@@ -118,6 +91,7 @@
 			}
 		}
 	}
+    
 
 	/*Grid Row*/
 	.colored-grid {
