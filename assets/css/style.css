@@ -5284,7 +5284,11 @@ main .lead {
   margin-bottom: 5px;
   text-transform: uppercase;
   font-family: 'Montserrat';
+<<<<<<< HEAD
+  font-weight: 300; }
+=======
   font-weight: 700; }
+>>>>>>> c10a073c9a4a6a3ecc51dd35eaaaa30fc6472c40
   @media (min-width: 768px) {
     .heading-primary {
       font-size: 3.75em;
@@ -5356,7 +5360,11 @@ main .lead {
   font-weight: bold; }
   @media (min-width: 768px) {
     .heading-alternate {
+<<<<<<< HEAD
+      font-size: 48px;
+=======
       font-size: 3.75em;
+>>>>>>> c10a073c9a4a6a3ecc51dd35eaaaa30fc6472c40
       line-height: 46px; } }
 
 .page-title {
@@ -6086,6 +6094,9 @@ main .lead {
     padding-bottom: 60px;
     padding-top: 60px; }
   .info-grid .info-grid .container {
+<<<<<<< HEAD
+    width: 100%; }
+=======
     width: 100%;
     position: relative;
     border: 1px solid red;
@@ -6105,16 +6116,25 @@ main .lead {
     background: silver;
     position: relative;
     top: 80px; }
+>>>>>>> c10a073c9a4a6a3ecc51dd35eaaaa30fc6472c40
   @media (max-width: 767px) {
     .info-grid .container {
       padding: 0; } }
   .info-grid .grid-img {
     position: relative;
+<<<<<<< HEAD
+    height: 50vh;
+    background-image: url("/assets/img/event-default.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+=======
     min-height: 30vh;
     background-image: url("/assets/img/icon_arrow_uptrend.png");
     background-position: calc( 50% - 10em ) 35%;
     background-repeat: no-repeat;
     background-size: 300px; }
+>>>>>>> c10a073c9a4a6a3ecc51dd35eaaaa30fc6472c40
     .info-grid .grid-img.has-overlay:after {
       background-image: url("/assets/img/info-grid-overlay-sm.png");
       background-position: center;
