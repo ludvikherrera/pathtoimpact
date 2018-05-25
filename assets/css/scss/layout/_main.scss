@@ -45,17 +45,17 @@ main {
 		font-size: $font-size-lg;
 		line-height: 46px;
 	}
-    
+
     &.hlt-title {
         @include sans-bold;
-        
+
     @media (min-width: $screen-sm-min) {
 		font-size: $font-size-lg * 1.25;
 		line-height: 1em;
 	}
-        
+
     }
-    
+
     &.hlt-title::before {
     content: " ";
     display: block;
@@ -66,7 +66,7 @@ main {
     position: absolute;
     top: calc( -1.125em );
     left:calc( -2em );
-    z-index: -1;        
+    z-index: -1;
     }
 }
 .heading-secondary {
@@ -369,6 +369,13 @@ main {
 
 // Contact Styles nu_edit
 
+.contact {
+
+	h2.hlt-title {
+		color: $color-red-med;
+		margin: 20px;
+	}
+
 .contact-left-col {
 	img {
 	width: 100%;
@@ -388,4 +395,6 @@ main {
 .adr, .org, .email, .tel {
 	@include sans-bold;
 	color: $color-blue-med;
+}
+
 }
