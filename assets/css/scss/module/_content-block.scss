@@ -64,12 +64,13 @@
 			margin-bottom: 50px;
 		}
 
-		.yellow-bar {
-			background: $color-yellow;
-			text-align: left;
-			padding: 15px;
-    	font-weight: 500;
-    	font-size: medium;
+		.yellow-bar { //nu_edit
+			background: rgba(255, 235, 71, 0.5); //nu_edit
+			text-align: left; //nu_edit
+			padding: 15px; //nu_edit
+    	font-weight: 500; //nu_edit
+    	font-size: medium; //nu_edit
+			margin-top: -85px; //nu_edit
 		}
 
 		.article-category {
@@ -173,9 +174,9 @@
 	}
 
 	/*Team Block*/
+
 	.team-row {
 		// padding-top: 50px; nu_edit
-		padding-top: 15px;
 
 		.team-item {
 			@media (max-width: $screen-xs-max) {
