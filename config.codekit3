@@ -2596,6 +2596,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/img\/bckgd_resources.jpg": {
+		"ft": 16384,
+		"iS": 93516,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/bckgd_resources.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/img\/bckgd_resources@2x.jpg": {
+		"ft": 16384,
+		"iS": 251360,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/bckgd_resources@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/img\/blank.jpg": {
 		"ft": 16384,
 		"iS": 5839,
@@ -3481,6 +3503,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/builds\/index_base.html",
+		"oF": 0
+		},
+	"\/builds\/index_buttons_before.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/builds\/index_buttons_before.html",
 		"oF": 0
 		},
 	"\/builds\/membermeetups\/index.html": {
