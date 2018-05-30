@@ -63,6 +63,15 @@
 		.heading-primary {
 			margin-bottom: 50px;
 		}
+
+		.yellow-bar {
+			background: $color-yellow;
+			text-align: left;
+			padding: 15px;
+    	font-weight: 500;
+    	font-size: medium;
+		}
+
 		.article-category {
 			border-bottom: solid 1px $color-gray-xlight;
 			border-left: solid 1px $color-gray-xlight;
@@ -89,6 +98,7 @@
 			margin-bottom: 30px;
 			text-transform: uppercase;
 			@include sans-light;
+			position: relative; //nu_edit
 
 			&.hlt-title { //nu_edit
 				color: $color-red-med; //nu_edit
@@ -103,6 +113,7 @@
 				line-height: 1em; //nu_edit
 			} //nu_edit
 			} //nu_edit
+
 		}
 		h3 {
 			font-size: ($font-size-sm + 7);
@@ -163,7 +174,8 @@
 
 	/*Team Block*/
 	.team-row {
-		padding-top: 50px;
+		// padding-top: 50px; nu_edit
+		padding-top: 15px;
 
 		.team-item {
 			@media (max-width: $screen-xs-max) {
@@ -175,23 +187,32 @@
 			}
 
 			a {
-				outline: none;
+				// outline: none;
+				font-size: small;
+				font-weight: 400;
+				margin-top: 15px;
 			}
 
 			.img-circle {
 				height: auto;
-				margin: 0 auto 50px auto;
+				// margin: 0 auto 50px auto; nu_edit
+				margin: 0 auto 25px auto;
 				max-width: 100%;
 			}
 			.item-title {
-				color: $color-red-med;
+				// color: $color-red-med; nu_edit
+				color: $color-blue-med;
 				font-size: ($font-size-sm + 5);
 				letter-spacing: .2px;
-				margin-bottom: 10px;
-				@include sans-regular;
+				// margin-bottom: 10px; nu_edit
+				margin-bottom: 5px;
+				// @include sans-regular; nu_edit
+				@include serif-regular;
+				font-weight: bold; //nu_edit
 			}
 			.sub-title {
-				color: $color-gray-dark;
+				// color: $color-gray-dark; nu_edit
+				color: $color-blue-med;
 				display: block;
 				font-size: $font-size-xs;
 				letter-spacing: 2px;

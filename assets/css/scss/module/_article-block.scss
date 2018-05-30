@@ -13,6 +13,13 @@
 		padding-bottom: 10px;
 		padding-top: 10px;
 
+		h3 {
+			color: $color-blue-med;
+			margin-bottom: 0px;
+			margin-top: 15px;
+		}
+
+
 		@media (min-width: $screen-sm-min) {
 			padding-bottom: 25px;
 			padding-top: 25px;
@@ -28,6 +35,31 @@
 				top: -4px;
 			}
 		}
+
+			/*Event Specific nu_edit*/
+			.event-date {
+				font-size: 24px;
+				line-height: 30px;
+			}
+			.event-loc {
+				&::before {
+					background: url(/assets/img/pin.svg) 0 50% no-repeat;
+    			content: '';
+    			display: block;
+  			  height: 15px;
+  			  margin: 0 15px 0 0;
+  			  position: absolute;
+					left: 15px;
+  			  width: 10px;
+				}
+				@media (max-width: $screen-sm-min) {
+					&::before {
+						left: 4px;
+						margin-top: 2px;
+						height: 12px;
+					}
+				}
+			}
 	}
 	.article-item-wrap {
 		background: $color-gray-xlight;
@@ -84,6 +116,8 @@
 			}
 
 			.title-primary {
+				color: $color-black;
+				font-weight: bold;
 
 				@media (max-width: 480px) {
 					display: none;
@@ -93,17 +127,27 @@
 
 			.link-more {
 				display: none;
-				margin-top: 20px;
+				// margin-top: 20px; nu_edit
+				background-color: $color-blue-light; //nu_edit
+				color: $color-white; // nu_edit
+				position: absolute;
+  		  bottom: 0;
+    		width: 100%;
+  		  padding: 15px;
+  		  left: 0;
 
 				@media (min-width: $screen-sm-min) {
 					display: block;
 				}
 			}
 			p {
-				color: $color-black;
+				// color: $color-black; nu_edit
+				color: $color-blue-med;
 				display: none;
 				font-size: $font-size-sm;
+				line-height: $font-size-sm*1.5; // nu_edit
 				list-style: 24px;
+				margin-bottom: 50px; // nu_edit
 
 				@media (min-width: $screen-sm-min) {
 					display: block;
