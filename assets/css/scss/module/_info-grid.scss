@@ -124,7 +124,7 @@
 	}
     
 
-	/*Grid Row*/
+	/*Grid Row*/    
 	.colored-grid {
 		// background: $color-blue-dark; nu_edit
 		position: relative;
@@ -242,11 +242,9 @@
 	}
 	.btn {
         // nu edit;
-    background: red;
     height: 50px;
     width: calc( 50% );
     text-decoration: none;
-    color: white;
     text-align: left;
     padding: 15px calc( 10% );
         // nu edit end;
