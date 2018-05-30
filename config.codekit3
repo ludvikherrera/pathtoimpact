@@ -9,6 +9,181 @@
 	],
 "creatorBuild": "26680",
 "files": {
+	"\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/.gitignore",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/078b514a0fc8d3ab0fb9c945698708ca7f5a5acc\/_badges.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/078b514a0fc8d3ab0fb9c945698708ca7f5a5acc\/_badges.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/078b514a0fc8d3ab0fb9c945698708ca7f5a5acc\/_bootstrap-ms.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/078b514a0fc8d3ab0fb9c945698708ca7f5a5acc\/_bootstrap-ms.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/078b514a0fc8d3ab0fb9c945698708ca7f5a5acc\/_button-groups.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/078b514a0fc8d3ab0fb9c945698708ca7f5a5acc\/_button-groups.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/078b514a0fc8d3ab0fb9c945698708ca7f5a5acc\/_buttons.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/078b514a0fc8d3ab0fb9c945698708ca7f5a5acc\/_buttons.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/078b514a0fc8d3ab0fb9c945698708ca7f5a5acc\/_carousel.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/078b514a0fc8d3ab0fb9c945698708ca7f5a5acc\/_carousel.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/078b514a0fc8d3ab0fb9c945698708ca7f5a5acc\/_component-animations.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/078b514a0fc8d3ab0fb9c945698708ca7f5a5acc\/_component-animations.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/078b514a0fc8d3ab0fb9c945698708ca7f5a5acc\/_dropdowns.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/078b514a0fc8d3ab0fb9c945698708ca7f5a5acc\/_dropdowns.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/078b514a0fc8d3ab0fb9c945698708ca7f5a5acc\/_forms.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/078b514a0fc8d3ab0fb9c945698708ca7f5a5acc\/_forms.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/078b514a0fc8d3ab0fb9c945698708ca7f5a5acc\/_grid.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/078b514a0fc8d3ab0fb9c945698708ca7f5a5acc\/_grid.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/078b514a0fc8d3ab0fb9c945698708ca7f5a5acc\/_input-groups.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/078b514a0fc8d3ab0fb9c945698708ca7f5a5acc\/_input-groups.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/078b514a0fc8d3ab0fb9c945698708ca7f5a5acc\/_list-group.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/078b514a0fc8d3ab0fb9c945698708ca7f5a5acc\/_list-group.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/078b514a0fc8d3ab0fb9c945698708ca7f5a5acc\/_media.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/078b514a0fc8d3ab0fb9c945698708ca7f5a5acc\/_media.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/078b514a0fc8d3ab0fb9c945698708ca7f5a5acc\/_mixins.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/078b514a0fc8d3ab0fb9c945698708ca7f5a5acc\/_mixins.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/078b514a0fc8d3ab0fb9c945698708ca7f5a5acc\/_modals.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/078b514a0fc8d3ab0fb9c945698708ca7f5a5acc\/_modals.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/078b514a0fc8d3ab0fb9c945698708ca7f5a5acc\/_navbar.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/078b514a0fc8d3ab0fb9c945698708ca7f5a5acc\/_navbar.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/078b514a0fc8d3ab0fb9c945698708ca7f5a5acc\/_navs.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/078b514a0fc8d3ab0fb9c945698708ca7f5a5acc\/_navs.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/078b514a0fc8d3ab0fb9c945698708ca7f5a5acc\/_normalize.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/078b514a0fc8d3ab0fb9c945698708ca7f5a5acc\/_normalize.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/078b514a0fc8d3ab0fb9c945698708ca7f5a5acc\/_responsive-embed.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/078b514a0fc8d3ab0fb9c945698708ca7f5a5acc\/_responsive-embed.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/078b514a0fc8d3ab0fb9c945698708ca7f5a5acc\/_responsive-utilities.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/078b514a0fc8d3ab0fb9c945698708ca7f5a5acc\/_responsive-utilities.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/078b514a0fc8d3ab0fb9c945698708ca7f5a5acc\/_scaffolding.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/078b514a0fc8d3ab0fb9c945698708ca7f5a5acc\/_scaffolding.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/078b514a0fc8d3ab0fb9c945698708ca7f5a5acc\/_tables.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/078b514a0fc8d3ab0fb9c945698708ca7f5a5acc\/_tables.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/078b514a0fc8d3ab0fb9c945698708ca7f5a5acc\/_type.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/078b514a0fc8d3ab0fb9c945698708ca7f5a5acc\/_type.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/078b514a0fc8d3ab0fb9c945698708ca7f5a5acc\/_utilities.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/078b514a0fc8d3ab0fb9c945698708ca7f5a5acc\/_utilities.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/078b514a0fc8d3ab0fb9c945698708ca7f5a5acc\/_variables.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/078b514a0fc8d3ab0fb9c945698708ca7f5a5acc\/_variables.scssc",
+		"oF": 0
+		},
 	"\/assets\/css\/scss\/.sass-cache\/157d82382a11eb8df17540448ce885c44dd4aac4\/_bootstrap.scssc": {
 		"cB": 0,
 		"ft": 8192,
@@ -21,6 +196,293 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/assets\/css\/scss\/.sass-cache\/157d82382a11eb8df17540448ce885c44dd4aac4\/global.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/38fda1e870a499a2c3df9bc3be3e79bfa87cd686\/_bootstrap.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/38fda1e870a499a2c3df9bc3be3e79bfa87cd686\/_bootstrap.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/38fda1e870a499a2c3df9bc3be3e79bfa87cd686\/global.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/38fda1e870a499a2c3df9bc3be3e79bfa87cd686\/global.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/56e6e0b1dc042c13934b852d1abf3fd64ddbfe86\/_article-block.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/56e6e0b1dc042c13934b852d1abf3fd64ddbfe86\/_article-block.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/56e6e0b1dc042c13934b852d1abf3fd64ddbfe86\/_content-block.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/56e6e0b1dc042c13934b852d1abf3fd64ddbfe86\/_content-block.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/56e6e0b1dc042c13934b852d1abf3fd64ddbfe86\/_hero-block.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/56e6e0b1dc042c13934b852d1abf3fd64ddbfe86\/_hero-block.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/56e6e0b1dc042c13934b852d1abf3fd64ddbfe86\/_info-grid.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/56e6e0b1dc042c13934b852d1abf3fd64ddbfe86\/_info-grid.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/56e6e0b1dc042c13934b852d1abf3fd64ddbfe86\/_newsletter-block.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/56e6e0b1dc042c13934b852d1abf3fd64ddbfe86\/_newsletter-block.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/56e6e0b1dc042c13934b852d1abf3fd64ddbfe86\/_nu-block.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/56e6e0b1dc042c13934b852d1abf3fd64ddbfe86\/_nu-block.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/56e6e0b1dc042c13934b852d1abf3fd64ddbfe86\/_resources-block.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/56e6e0b1dc042c13934b852d1abf3fd64ddbfe86\/_resources-block.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/56e6e0b1dc042c13934b852d1abf3fd64ddbfe86\/_testimonial-block.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/56e6e0b1dc042c13934b852d1abf3fd64ddbfe86\/_testimonial-block.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/56e6e0b1dc042c13934b852d1abf3fd64ddbfe86\/info-block.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/56e6e0b1dc042c13934b852d1abf3fd64ddbfe86\/info-block.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_alerts.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_alerts.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_background-variant.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_background-variant.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_border-radius.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_border-radius.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_buttons.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_buttons.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_center-block.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_center-block.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_clearfix.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_clearfix.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_forms.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_forms.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_gradients.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_gradients.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_grid-framework.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_grid-framework.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_grid.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_grid.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_hide-text.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_hide-text.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_image.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_image.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_labels.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_labels.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_list-group.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_list-group.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_nav-divider.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_nav-divider.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_nav-vertical-align.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_nav-vertical-align.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_opacity.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_opacity.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_pagination.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_pagination.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_panels.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_panels.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_progress-bar.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_progress-bar.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_reset-filter.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_reset-filter.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_reset-text.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_reset-text.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_resize.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_resize.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_responsive-visibility.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_responsive-visibility.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_size.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_size.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_tab-focus.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_tab-focus.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_table-row.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_table-row.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_text-emphasis.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_text-emphasis.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_text-overflow.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_text-overflow.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_vendor-prefixes.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/60b8e71c36f5bc3d40fccaa4f7b1aa5eace1c761\/_vendor-prefixes.scssc",
 		"oF": 0
 		},
 	"\/assets\/css\/scss\/.sass-cache\/76418f6195888d2850f52a26bf536fc624c00d95\/_buttons.scssc": {
@@ -282,6 +744,27 @@
 		"oAP": "\/assets\/css\/scss\/.sass-cache\/956154d78fd97a106e1bf68362591c04fe35f544\/_vendor-prefixes.scssc",
 		"oF": 0
 		},
+	"\/assets\/css\/scss\/.sass-cache\/99faa754118bb49b7a1b2d811fb4966d035ddf6d\/_bootstrap-config.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/99faa754118bb49b7a1b2d811fb4966d035ddf6d\/_bootstrap-config.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/99faa754118bb49b7a1b2d811fb4966d035ddf6d\/_mixins.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/99faa754118bb49b7a1b2d811fb4966d035ddf6d\/_mixins.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/99faa754118bb49b7a1b2d811fb4966d035ddf6d\/_var.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/99faa754118bb49b7a1b2d811fb4966d035ddf6d\/_var.scssc",
+		"oF": 0
+		},
 	"\/assets\/css\/scss\/.sass-cache\/b512a44f6c7fb831d19b7144c6713a6b5ae77587\/_badges.scssc": {
 		"cB": 0,
 		"ft": 8192,
@@ -448,6 +931,62 @@
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/assets\/css\/scss\/.sass-cache\/b512a44f6c7fb831d19b7144c6713a6b5ae77587\/_variables.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/b8967900a7246e4e35deacbf386e4c6d5378fe85\/_buttons.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/b8967900a7246e4e35deacbf386e4c6d5378fe85\/_buttons.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/b8967900a7246e4e35deacbf386e4c6d5378fe85\/_fonts.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/b8967900a7246e4e35deacbf386e4c6d5378fe85\/_fonts.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/b8967900a7246e4e35deacbf386e4c6d5378fe85\/_footer.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/b8967900a7246e4e35deacbf386e4c6d5378fe85\/_footer.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/b8967900a7246e4e35deacbf386e4c6d5378fe85\/_forms.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/b8967900a7246e4e35deacbf386e4c6d5378fe85\/_forms.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/b8967900a7246e4e35deacbf386e4c6d5378fe85\/_head.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/b8967900a7246e4e35deacbf386e4c6d5378fe85\/_head.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/b8967900a7246e4e35deacbf386e4c6d5378fe85\/_header.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/b8967900a7246e4e35deacbf386e4c6d5378fe85\/_header.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/b8967900a7246e4e35deacbf386e4c6d5378fe85\/_main.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/b8967900a7246e4e35deacbf386e4c6d5378fe85\/_main.scssc",
+		"oF": 0
+		},
+	"\/assets\/css\/scss\/.sass-cache\/c82f2c738cddb961918c15d504f7c3e740acd3c6\/info-block.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/css\/scss\/.sass-cache\/c82f2c738cddb961918c15d504f7c3e740acd3c6\/info-block.scssc",
 		"oF": 0
 		},
 	"\/assets\/css\/scss\/.sass-cache\/ee6e1925c4e349c425b384beb3e006f734a0bde6\/_article-block.scssc": {
@@ -1671,6 +2210,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/assets\/css\/scss\/module\/_nu-block.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/scss\/module\/_nu-block.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/assets\/css\/scss\/module\/_resources-block.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -2022,6 +2574,28 @@
 		"oAP": "\/assets\/fonts\/ss-standard.woff",
 		"oF": 0
 		},
+	"\/assets\/img\/arrows_dotted_line.png": {
+		"ft": 32768,
+		"iS": 30425,
+		"oA": 0,
+		"oAP": "\/assets\/img\/arrows_dotted_line.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/articles_thumb.png": {
+		"ft": 32768,
+		"iS": 676844,
+		"oA": 0,
+		"oAP": "\/assets\/img\/articles_thumb.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/img\/blank.jpg": {
 		"ft": 16384,
 		"iS": 5839,
@@ -2032,6 +2606,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/assets\/img\/cal.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/img\/cal.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/assets\/img\/checkbox-checked.png": {
 		"ft": 32768,
@@ -2049,6 +2633,39 @@
 		"iS": 123,
 		"oA": 0,
 		"oAP": "\/assets\/img\/checkbox-unchecked.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/dash_pattern.png": {
+		"ft": 32768,
+		"iS": 52856,
+		"oA": 0,
+		"oAP": "\/assets\/img\/dash_pattern.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/dash_pattern_t.png": {
+		"ft": 32768,
+		"iS": 84316,
+		"oA": 0,
+		"oAP": "\/assets\/img\/dash_pattern_t.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/dash_pattern_y.png": {
+		"ft": 32768,
+		"iS": 84316,
+		"oA": 0,
+		"oAP": "\/assets\/img\/dash_pattern_y.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2155,6 +2772,28 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/assets\/img\/icon_arrow_uptrend.png": {
+		"ft": 32768,
+		"iS": 8127,
+		"oA": 0,
+		"oAP": "\/assets\/img\/icon_arrow_uptrend.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/impact_icon_blue50.png": {
+		"ft": 32768,
+		"iS": 11891,
+		"oA": 0,
+		"oAP": "\/assets\/img\/impact_icon_blue50.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/img\/info-grid-overlay-sm.png": {
 		"ft": 32768,
@@ -2644,6 +3283,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/img\/plus.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/img\/plus.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/assets\/js\/app-21ebfb5e0c.js": {
 		"ft": 64,
 		"ma": 0,
@@ -2736,6 +3385,13 @@
 		"oAP": "\/builds\/about\/index.html",
 		"oF": 0
 		},
+	"\/builds\/about_base\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/builds\/about_base\/index.html",
+		"oF": 0
+		},
 	"\/builds\/article.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -2748,6 +3404,20 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/builds\/article\/index.html",
+		"oF": 0
+		},
+	"\/builds\/assessment\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/builds\/assessment\/index.html",
+		"oF": 0
+		},
+	"\/builds\/become-a-member\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/builds\/become-a-member\/index.html",
 		"oF": 0
 		},
 	"\/builds\/blog.html": {
@@ -2764,11 +3434,74 @@
 		"oAP": "\/builds\/blog\/index.html",
 		"oF": 0
 		},
+	"\/builds\/blog_base\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/builds\/blog_base\/index.html",
+		"oF": 0
+		},
+	"\/builds\/contact\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/builds\/contact\/index.html",
+		"oF": 0
+		},
+	"\/builds\/creating-an-enewsletter\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/builds\/creating-an-enewsletter\/index.html",
+		"oF": 0
+		},
+	"\/builds\/events\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/builds\/events\/index.html",
+		"oF": 0
+		},
+	"\/builds\/history\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/builds\/history\/index.html",
+		"oF": 0
+		},
 	"\/builds\/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/builds\/index.html",
+		"oF": 0
+		},
+	"\/builds\/index_base.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/builds\/index_base.html",
+		"oF": 0
+		},
+	"\/builds\/membermeetups\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/builds\/membermeetups\/index.html",
+		"oF": 0
+		},
+	"\/builds\/nonprofits-charitable-giving-america\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/builds\/nonprofits-charitable-giving-america\/index.html",
+		"oF": 0
+		},
+	"\/builds\/recruit-board-members\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/builds\/recruit-board-members\/index.html",
 		"oF": 0
 		},
 	"\/builds\/resource-detail.html": {
@@ -2797,6 +3530,20 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/builds\/resources\/index.html",
+		"oF": 0
+		},
+	"\/builds\/resources_base\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/builds\/resources_base\/index.html",
+		"oF": 0
+		},
+	"\/builds\/thanks\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/builds\/thanks\/index.html",
 		"oF": 0
 		},
 	"\/builds_bak20180522\/about.html": {
@@ -22553,7 +23300,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 548708204,
-	"displayValue": "httpdocs_css",
+	"displayValue": "pathtoimpact",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-gavin",
 	"iconImageWasSetByUser": 0
