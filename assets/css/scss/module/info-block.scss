@@ -7,10 +7,13 @@
 /*Info Block*/
 .info-block {
 	padding-bottom: 50px;
-
 	background-size: contain; // nu_edit
 	background-repeat: no-repeat; // nu_edit
 	background-position: left; // nu_edit
+
+	.grid-img { // nu_edit
+		margin-left: -10vw; // nu_edit
+	} // nu_edit
 
 	&.stats-block { // nu_edit
 		background-image: url('/assets/img/impact_icon_blue50.png'); // nu_edit
@@ -59,6 +62,8 @@
 
 	.container {
 		width: 100%; // nu_edit
+		padding-left: 0;
+		padding-right: 0;
 	}
 
 .heading-alternate {
@@ -105,7 +110,11 @@
 
 		.btn-lg {
 			margin-top: 30px;
-			padding: 12px 50px;
+			// padding: 12px 50px; nu_edit
+			padding: 30px;
+			// position: absolute;
+			// bottom: 0;
+			width: 100%; //nu_edit
 		}
 	}
 	img {
