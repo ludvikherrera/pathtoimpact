@@ -18,6 +18,20 @@
 	padding-bottom: 40px;
 	padding-top: 40px;
 	position: relative;
+    
+    &.container {
+        @media (max-width: $screen-lg-min) {
+             margin-top: 2em;
+        }
+        
+        @media (min-width: $screen-md-min) and (max-width: $screen-lg-min) {
+            width: calc( 100% - 60px ); 
+        }
+        
+        @media (min-width: $screen-lg) {
+            width: calc( 100% - 60px );
+        }
+    }
 
 	.back-link {
 		display: block;
@@ -65,11 +79,11 @@
 		}
 
 		.yellow-bar { //nu_edit
-			background: rgba(255, 235, 71, 0.5); //nu_edit
+			background: $color_yellow; //nu_edit
 			text-align: left; //nu_edit
 			padding: 15px; //nu_edit
-    	font-weight: 500; //nu_edit
-    	font-size: medium; //nu_edit
+    	    font-weight: 500; //nu_edit
+    	    font-size: medium; //nu_edit
 			margin-top: -85px; //nu_edit
 		}
 

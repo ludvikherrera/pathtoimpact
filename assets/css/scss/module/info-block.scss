@@ -7,13 +7,18 @@
 /*Info Block*/
 .info-block {
 	padding-bottom: 50px;
+
 	background-size: contain; // nu_edit
 	background-repeat: no-repeat; // nu_edit
 	background-position: left; // nu_edit
-
-	.grid-img { // nu_edit
-		margin-left: -10vw; // nu_edit
-	} // nu_edit
+    margin-top: 4.5em;
+    margin-bottom: 2em;
+    
+    svg#cal-icon {
+    position: absolute;
+    right: 0;
+    top: .5em;
+    }
 
 	&.stats-block { // nu_edit
 		background-image: url('/assets/img/impact_icon_blue50.png'); // nu_edit
@@ -62,16 +67,25 @@
 
 	.container {
 		width: 100%; // nu_edit
-		padding-left: 0;
-		padding-right: 0;
+        
+        @media (max-width: $screen-md) {
+            width: 90vw;
+            margin: 0 auto;
+        }
 	}
 
-.heading-alternate {
-	padding: 40px; // nu_edit
-	height: 100%; // nu_edit
-	display: flex; // nu_edit
-	align-items: center; // nu_edit
-}
+    .grid-desc {
+        position: relative;
+        padding: 1em;
+        padding-top: 2.5em;
+    }
+    
+    .heading-alternate {
+        padding: 40px; // nu_edit
+        height: 100%; // nu_edit
+        display: flex; // nu_edit
+        align-items: center; // nu_edit
+    }
 
 	@media (max-width: $screen-xs-max) {
 		.container {
@@ -86,7 +100,8 @@
 		padding: 15px;
 
 		@media (min-width: $screen-sm-min) {
-			padding: 100px 40px 40px 40px;
+		//	padding: 100px 40px 40px 40px;
+            padding: 0 2em;
 		}
 
 		.heading-primary {
@@ -110,16 +125,16 @@
 
 		.btn-lg {
 			margin-top: 30px;
-			// padding: 12px 50px; nu_edit
-			padding: 30px;
-			// position: absolute;
-			// bottom: 0;
-			width: 100%; //nu_edit
+			padding: 12px 50px;
+            display: block;
 		}
 	}
 	img {
 		height: auto;
 		width: 100%;
+        position: relative;
+        z-index: -2;
+        
 	}
 	.info-content {
 		height: 100%;
@@ -196,6 +211,10 @@
 		&.dark-blue {
 			color: $color-blue-dark;
 		}
+        
+        @media (max-width: $screen-xs) {
+            font-size: 12px;
+        }
 	}
 
 	/*Info Block - stacked image*/
