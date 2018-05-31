@@ -2,13 +2,13 @@
 
 .nu-dash {
         background-size: 100%;
-    
+
     &.dasht {
         background-image: url('/assets/img/dash_pattern_t.png');
     }
 
     &.dashy {
-        background-image: url('/assets/img/dash_pattern_y.png');   
+        background-image: url('/assets/img/dash_pattern_y.png');
     }
 
 }
@@ -17,15 +17,15 @@
     position: absolute;
     overflow: hidden;
     // border: 1px solid;
-    
+
     img {
         left: 0;
         transform: scale(4);
     }
-    
+
     @media (max-width: $screen-xs) {
         height: calc( 100%/50 ) ;
-        
+
         img {
             transform: scale(1);
         }
@@ -33,16 +33,16 @@
 
     @media (max-width: $screen-md) {
         height: calc( 100%/25 ) ;
-        
+
         img {
             transform: scale(2);
         }
     }
-    
+
     @media (min-width: $screen-md) {
         height: inherit;
         max-height: 600px;
-        
+
         img {
             transform: scale(2);
         }
@@ -55,24 +55,39 @@
     padding-top: 5em;
     position: relative;
     overflow: hidden;
-    
+
+    &.discover-memb {
+      margin-bottom: 0;
+      .btn {
+        @media (min-width: $screen-lg-min) {
+            margin-right: 0;
+        }
+      }
+
+      .grid-img {
+        img {
+          top: 14em;
+        }
+      }
+    }
+
     @media (min-width: $screen-md) {
             margin: 4em auto;
     }
-    
+
     @media (max-width: $screen-sm) {
             margin: 4em auto;
         padding-bottom: 120px;
     }
-    
+
     .grid-img img {
         width: 100%;
         position: absolute;
         top: 24em;
         left: 0;
         z-index: -1;
-        
-        
+
+
         @media (max-width: $screen-sm) {
             bottom: -12em;
             left: 0;
@@ -84,17 +99,17 @@
     //    background-repeat: no-repeat;
     //    background-size: 100%;
     // }
-    
+
     // &.exp_resources {
     // background-image: url('/assets/img/bckgd_resources.jpg');
     // background-position: right 16em;
     // background-repeat: no-repeat;
     // background-size: 75%;
     // }
-    
+
     .container {
         width: 100%;
-        
+
     @media (min-width: $screen-md) {
         .row {
             max-width: $screen-md;
@@ -107,17 +122,17 @@
         }
         }
     }
-    
+
     .col-xs-6.col-sm-3 {
             padding: 0;
         }
-    
+
     .deco {
         background: url('/assets/img/arrows_dotted_line.png') no-repeat left;
         background-size: cover;
         height: 80px;
         margin: 1em auto .5em;
-        
+
         @media (min-width: $screen-md) {
             position: relative;
             bottom: 115px;
@@ -132,32 +147,32 @@
         height: 82px;
         margin: 1em auto .5em;
     }
-    
+
     .colored-grid {
         @media (min-width: $screen-md) {
             position: relative;
             top: calc( 115px );
-        }      
+        }
     }
-    
+
     .list-plus {
         .grid-title {
             margin: 0;
-            padding: 0;    
+            padding: 0;
         }
-    
+
         svg {
             transform: scale(.5);
             vertical-align: middle;
             position: relative;
             top: -.125em;
         }
-        
+
         @media (min-width: $screen-md) {
             position: relative;
             left: calc( -100vw + (100vw - 50%) );
             top: calc( -115px + 80px + .5em );
-        }    
+        }
     }
 
         .circ {
@@ -172,18 +187,18 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        
-            
+
+
         @media (max-width: $screen-sm-min) {
 		    width: calc( (100vw/2.5) );
             height: calc( (100vw/2.5) );
 	    }
-            
+
         @media (min-width: $screen-lg) {
-         
+
         }
     }
-    
+
     .grid-title {
         color: $color-black;
         display: block;
@@ -191,22 +206,22 @@
     	margin: 10px 0;
     	@include sans-bold;
     	text-transform: uppercase; // nu_edit
-    	font-size: 12px; // nu_edit     
+    	font-size: 12px; // nu_edit
         padding: 1em;
     }
-    
+
     .hlt-title {
         color: $color-red-med;
         margin-right: 1em;
     }
 
     .btn {
-        display: block; 
-        height: 80px; 
-        padding: 30px 0; 
-        text-align: left; 
+        display: block;
+        height: 80px;
+        padding: 30px 0;
+        text-align: left;
         padding-left: 2em;
-        
+
         @media (min-width: $screen-lg-min) {
             margin-right: $screen-lg-min - $screen-md;
         }
@@ -219,7 +234,7 @@
     .container {
         width: 100%;
         padding: 0;
-        
+
         @media (max-width: $screen-md) {
             width: 90vw;
             margin: 0 auto;
@@ -228,17 +243,17 @@
 
     .sq-half {
         width: 50%;
-        
+
         @media (max-width: $screen-md) {
             width: 100%;
         }
     }
-    
+
     img {
 
         position: relative;
         z-index: -2;
-        
+
     @media (max-width: $screen-md) {
         max-width: 100%;
         margin-left: -5vw;
