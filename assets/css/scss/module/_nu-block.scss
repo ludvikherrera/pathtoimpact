@@ -1,5 +1,18 @@
 /*Nu Grid*/
 
+.nu-dash {
+        background-size: 100%;
+    
+    &.dasht {
+        background-image: url('/assets/img/dash_pattern_t.png');
+    }
+
+    &.dashy {
+        background-image: url('/assets/img/dash_pattern_y.png');   
+    }
+
+}
+
 .nu-img {
     position: absolute;
     overflow: hidden;
@@ -194,8 +207,8 @@
         text-align: left; 
         padding-left: 2em;
         
-        @media (min-width: $screen-lg) {
-            margin-right: $screen-lg - $screen-md;
+        @media (min-width: $screen-lg-min) {
+            margin-right: $screen-lg-min - $screen-md;
         }
     }
 }

@@ -12,6 +12,7 @@
 	background-repeat: no-repeat; // nu_edit
 	background-position: left; // nu_edit
     margin-top: 4.5em;
+    margin-bottom: 2em;
     
     svg#cal-icon {
     position: absolute;
@@ -125,6 +126,7 @@
 		.btn-lg {
 			margin-top: 30px;
 			padding: 12px 50px;
+            display: block;
 		}
 	}
 	img {
