@@ -1,4 +1,41 @@
-/*Info Grid*/
+/*Nu Grid*/
+
+.nu-img {
+    position: absolute;
+    overflow: hidden;
+    // border: 1px solid;
+    
+    img {
+        left: 0;
+        transform: scale(4);
+    }
+    
+    @media (max-width: $screen-xs) {
+        height: calc( 100%/50 ) ;
+        
+        img {
+            transform: scale(1);
+        }
+    }
+
+    @media (max-width: $screen-md) {
+        height: calc( 100%/25 ) ;
+        
+        img {
+            transform: scale(2);
+        }
+    }
+    
+    @media (min-width: $screen-md) {
+        height: inherit;
+        max-height: 600px;
+        
+        img {
+            transform: scale(2);
+        }
+    }
+}
+
 .nu-block {
     margin: 2em auto;
     padding-bottom: 240px;
@@ -160,5 +197,38 @@
         @media (min-width: $screen-lg) {
             margin-right: $screen-lg - $screen-md;
         }
+    }
+}
+
+/* Nu Sq-Block */
+
+.nu-sq {
+    .container {
+        width: 100%;
+        padding: 0;
+        
+        @media (max-width: $screen-md) {
+            width: 90vw;
+            margin: 0 auto;
+        }
+    }
+
+    .sq-half {
+        width: 50%;
+        
+        @media (max-width: $screen-md) {
+            width: 100%;
+        }
+    }
+    
+    img {
+
+        position: relative;
+        z-index: -2;
+        
+    @media (max-width: $screen-md) {
+        max-width: 100%;
+        margin-left: -5vw;
+    }
     }
 }

@@ -17,6 +17,11 @@ main {
 			padding-right: 5%;
 		}
 	}
+    
+    p {
+        font-size: 1.125em;
+        color: $color-black;
+    }
 }
 
 
@@ -48,6 +53,13 @@ main {
 
     &.hlt-title {
         @include sans-bold;
+        color: $color-red-med;
+        margin-right: 1em;
+        
+    @media (min-width: $screen-md-min) {
+					margin-bottom: 30px;
+	}
+    
 
     @media (min-width: $screen-sm-min) {
 		font-size: $font-size-lg * 1.25;
@@ -61,7 +73,8 @@ main {
     display: block;
     width: 4em;
     height: 4em;
-    background: rgba(255,235,71,.5);
+    background: $color-yellow;
+    mix-blend-mode: multiply;
     border-radius: 2em;
     position: absolute;
     top: calc( -1.125em );
