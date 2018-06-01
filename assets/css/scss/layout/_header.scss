@@ -201,6 +201,10 @@
 		margin: 10px 0 0 15px;
 		padding: 0;
 		width: 80px;
+        
+        a {
+            display: block; height: 100%;
+        }
 
 		@media (min-width: $screen-sm-min) {
 			height: 68px;
