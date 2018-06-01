@@ -260,3 +260,18 @@
     }
     }
 }
+
+/* Nu Animations */
+
+    @keyframes grow {
+        0% {
+            transform: scale(1);
+        }
+        75% {
+            transform: scale(1.25);
+        }
+        100% {
+            transform: scale(1.125);
+        }
+    }
+
