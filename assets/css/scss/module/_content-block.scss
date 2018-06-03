@@ -259,7 +259,7 @@
 			display: flex;
 			flex-wrap: wrap;
 			align-items: center;
-			width: 225px;
+			width: calc( (100%/3) - 20px);
 			height: 225px;
 			list-style: none;
 			margin: 5px;
@@ -267,6 +267,10 @@
 			background: $color-blue-light;
 			border: 1px solid $color-black;
 			color: $color-white;
+            p {
+                color: $color-white;
+            }
+            
 			p:first-of-type {
 				font-weight: bold;
 				margin-bottom: -3em;
@@ -277,10 +281,10 @@
 	@media (max-width: $screen-lg-min) {
 		ol.tile-list {
 			li {
-				width: 250px;
+				width:  calc( (100%/2) - 10px);
 				height: 250px;
 				p:last-of-type {
-					margin-top: -5em;
+				margin-top: -5em;
 				}
 			}
 		}
