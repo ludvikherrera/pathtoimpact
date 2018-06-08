@@ -198,12 +198,12 @@
 
 /*Newsletter Singup*/
 .newsletter-signup {
-	background: $color-blue-med;
+	background: $color-blue-light;
 	padding: 30px;
 	position: relative;
 
 	&:before {
-		border-bottom: 22px solid $color-blue-med;
+		border-bottom: 22px solid $color-blue-light;
 		border-left: 19px solid transparent;
 		border-right: 19px solid transparent;
 		content: '';
@@ -285,7 +285,7 @@
 		.gform_footer {
 			position: absolute;
 			top: 92px;
-			right: -33px;
+			right: -80px;
 			display: inline-block !important;
 			width: 25% !important;
 			padding: 0 !important;
@@ -297,6 +297,20 @@
 				height: 51px;
 				margin: 0 !important;
 			}
+            
+            
+            @media (max-width: $screen-sm) {
+                top: 163px;
+                right: 30px;
+                width: 30% !important;
+            }
+            
+            @media (min-width: $screen-sm) and (max-width: $screen-md) {
+                top: 92px;
+                right: -20px;
+                width: 25% !important;
+            }
+            
 		}
 
 	}

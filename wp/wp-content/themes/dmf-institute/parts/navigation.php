@@ -24,7 +24,10 @@
                     'menu_class'        => 'nav navbar-nav navbar-right'
                 ));
             ?>
-
+						<form method="get" class="main-search navbar-form navbar-right" action="http://www.pathtoimpact.org/" role="search">
+							<label class="sr-only" for="search">Search</label>
+							<input type="text" class="form-control" id="search" placeholder="Search" name="s" id="s" value="">
+						</form>
             <!--
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="#" title="">Contact Us</a></li>
@@ -39,15 +42,12 @@
 	<nav class="primary-nav navbar">
 		<div class="container">
 			<div class="collapse navbar-collapse" id="PrimaryNav">
-				<form method="get" class="main-search navbar-form navbar-right" action="<?php bloginfo('home'); ?>/" role="search">
-					<label class="sr-only" for="search">Search</label>
-					<input type="text" class="form-control" id="search" placeholder="Search" name="s" id="s" value="<?php echo $_GET['s']; ?>">
-				</form>
+
 				<?php
 	                wp_nav_menu( array(
 	                    'menu'              => 'main',
 	                    'depth'             => 1,
-	                    'menu_class'        => 'nav navbar-nav'
+	                    'menu_class'        => 'nav navbar-nav navbar-right'
 	                ));
 	            ?>
 			</div>

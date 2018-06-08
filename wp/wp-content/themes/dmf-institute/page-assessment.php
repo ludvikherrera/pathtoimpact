@@ -1,5 +1,6 @@
 <?php
 // Header
+/* Template Name: Assessment */
 get_header();
 ?>
 
@@ -45,6 +46,32 @@ get_header();
 		</article>
 
 	<?php endwhile; endif; ?>
+
+	<!-- START Nu Block -->
+	<section class="nu-block discover-memb">
+					<div class="container">
+							<div class="grid-img">
+									<picture>
+					<!--[if IE 9]><video style="display: none;"><![endif]-->
+					<!-- <source srcset="http://www.pathtoimpact.org/wp/wp-content/uploads/2017/02/info-1.jpg" media="(min-width: 768px)"> -->
+					<!--[if IE 9]></video><![endif]-->
+					<img srcset="/assets/img/dash_pattern_t.png" alt="">
+				</picture>
+						 </div>
+							<div class="eq-height no-gutters row">
+									<div class="col-lg-12">
+					<h2 class="heading-primary hlt-title">Discover the many benefits of membership</h2>
+				</div>
+							</div>
+									<!-- <div class="deco no-gutters row fullwidth"> -->
+									<div class="eq-height no-gutters row">
+											<div class="col-sm-12 col-md-6 col-md-offset-6">
+													<a href="/become-a-member" class="btn btn-blue-light btn-top arrow-right" title="">Learn More</a>
+											</div>
+									</div>
+					</div>
+	</section>
+	<!-- END Nu Block -->
 
 </main>
 

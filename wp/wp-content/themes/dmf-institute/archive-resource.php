@@ -30,12 +30,12 @@ global $dmf;
 	<!--Search-->
 	<?php get_template_part('parts/search_resources'); ?>
 
-	
+
 
 	<!--Resources Block-->
 	<section class="resources-block container">
-		
-		
+
+
 		<!-- Resource Intro -->
 		<?php get_template_part('parts/resource_intro'); ?>
 
@@ -71,10 +71,7 @@ global $dmf;
 
 						<div class="resource-item media">
 							<a href="<?php echo get_permalink($post->ID); ?>" class="item-wrap" title="">
-								<div class="media-left">
-									<img src="/assets/img/placeholders/resource-thumb-1.svg" alt="" height="55" width="66">
-									
-								</div>
+
 								<div class="media-body">
 									<h3><?php echo the_title(); ?></h3>
 									<?php echo $dmf->custom_content(25, false, get_the_content()); ?>
@@ -91,7 +88,7 @@ global $dmf;
 							    <span class="article-category <?php echo get_field('category_color', 'term_'.$primary_cat); ?>"><?php echo $cat->name; ?></span>
                             <?php endif; ?>
 						</div>
-				
+
 
 				<?php $y++; endwhile; endif; ?>
 
@@ -106,7 +103,7 @@ global $dmf;
 		</div>
 
 
-		
+
 	</section>
 
 </main>

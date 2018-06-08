@@ -2051,7 +2051,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/css\/style.css",
 		"oF": 2,
-		"oS": 0,
+		"oS": 3,
 		"uL": 0
 		},
 	"\/assets\/css\/scss\/layout\/_buttons.scss": {
@@ -2683,6 +2683,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/img\/dash_pattern_t_sm.png": {
+		"ft": 32768,
+		"iS": 23762,
+		"oA": 0,
+		"oAP": "\/assets\/img\/dash_pattern_t_sm.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/dash_pattern_t_sq.png": {
+		"ft": 32768,
+		"iS": 46731,
+		"oA": 0,
+		"oAP": "\/assets\/img\/dash_pattern_t_sq.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/img\/dash_pattern_y.png": {
 		"ft": 32768,
 		"iS": 84316,
@@ -2718,6 +2740,28 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/footer-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/Group 5178.jpg": {
+		"ft": 16384,
+		"iS": 5461,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/Group 5178.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/Group 5178@2x.jpg": {
+		"ft": 16384,
+		"iS": 12794,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/Group 5178@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2839,6 +2883,23 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/img\/logo-footer-reverse.ai": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/img\/logo-footer-reverse.ai",
+		"oF": 0
+		},
+	"\/assets\/img\/logo-footer-reverse.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/img\/logo-footer-reverse.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/assets\/img\/logo-footer.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -2854,6 +2915,38 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/assets\/img\/logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/img\/membership-broch-sm.jpg": {
+		"ft": 16384,
+		"iS": 48960,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/membership-broch-sm.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/membership-broch.jpg": {
+		"ft": 16384,
+		"iS": 117861,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/membership-broch.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/pin.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/img\/pin.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -2925,6 +3018,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/img\/placeholders\/blank.png": {
+		"ft": 32768,
+		"iS": 8686,
+		"oA": 0,
+		"oAP": "\/assets\/img\/placeholders\/blank.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/placeholders\/blank_half.png": {
+		"ft": 32768,
+		"iS": 7208,
+		"oA": 0,
+		"oAP": "\/assets\/img\/placeholders\/blank_half.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/img\/placeholders\/featured-1.jpg": {
 		"ft": 16384,
 		"iS": 132035,
@@ -2934,6 +3049,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/placeholders\/graph_uptrend_arrow.png": {
+		"ft": 32768,
+		"iS": 12877,
+		"oA": 0,
+		"oAP": "\/assets\/img\/placeholders\/graph_uptrend_arrow.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/img\/placeholders\/hero-1-sm.jpg": {
@@ -3019,6 +3145,28 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/placeholders\/hero-4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/placeholders\/hero-main.jpg": {
+		"ft": 16384,
+		"iS": 198331,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/placeholders\/hero-main.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/img\/placeholders\/hero-main@2x.jpg": {
+		"ft": 16384,
+		"iS": 576141,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/placeholders\/hero-main@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -3228,6 +3376,17 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/assets\/img\/placeholders\/resources-pathtoimpact.jpg": {
+		"ft": 16384,
+		"iS": 256289,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/placeholders\/resources-pathtoimpact.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/img\/placeholders\/staff-1.jpg": {
 		"ft": 16384,
 		"iS": 11856,
@@ -3300,6 +3459,28 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/placeholders\/testimonial.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/placeholders\/working_for_you.jpg": {
+		"ft": 16384,
+		"iS": 55795,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/placeholders\/working_for_you.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/placeholders\/working_for_you_2.jpg": {
+		"ft": 16384,
+		"iS": 141114,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/placeholders\/working_for_you_2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -3566,6 +3747,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/builds\/resources_base\/index.html",
+		"oF": 0
+		},
+	"\/builds\/search\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/builds\/search\/index.html",
 		"oF": 0
 		},
 	"\/builds\/thanks\/index.html": {
@@ -15740,6 +15928,20 @@
 		"oAP": "\/wp\/wp-content\/themes\/dmf-institute\/page-about.php",
 		"oF": 0
 		},
+	"\/wp\/wp-content\/themes\/dmf-institute\/page-assessment.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/wp\/wp-content\/themes\/dmf-institute\/page-assessment.php",
+		"oF": 0
+		},
+	"\/wp\/wp-content\/themes\/dmf-institute\/page-contact.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/wp\/wp-content\/themes\/dmf-institute\/page-contact.php",
+		"oF": 0
+		},
 	"\/wp\/wp-content\/themes\/dmf-institute\/page-home.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -15827,6 +16029,16 @@
 		"oA": 0,
 		"oAP": "\/wp\/wp-content\/themes\/dmf-institute\/single.php",
 		"oF": 0
+		},
+	"\/wp\/wp-content\/themes\/dmf-institute\/style-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/wp\/wp-content\/themes\/dmf-institute\/style-min-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"\/wp\/wp-content\/themes\/dmf-institute\/style.css": {
 		"aP": 1,
@@ -17434,7 +17646,7 @@
 		},
 	"\/wp\/wp-content\/uploads\/2017\/02\/hero-1-sm.jpg": {
 		"ft": 16384,
-		"iS": 77028,
+		"iS": 58637,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/wp\/wp-content\/uploads\/2017\/02\/hero-1-sm.jpg",
@@ -17445,7 +17657,7 @@
 		},
 	"\/wp\/wp-content\/uploads\/2017\/02\/hero-1.jpg": {
 		"ft": 16384,
-		"iS": 193828,
+		"iS": 98195,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/wp\/wp-content\/uploads\/2017\/02\/hero-1.jpg",
@@ -17533,7 +17745,7 @@
 		},
 	"\/wp\/wp-content\/uploads\/2017\/02\/hero-2-sm.jpg": {
 		"ft": 16384,
-		"iS": 37361,
+		"iS": 74590,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/wp\/wp-content\/uploads\/2017\/02\/hero-2-sm.jpg",
@@ -17544,7 +17756,7 @@
 		},
 	"\/wp\/wp-content\/uploads\/2017\/02\/hero-2.jpg": {
 		"ft": 16384,
-		"iS": 60490,
+		"iS": 110336,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/wp\/wp-content\/uploads\/2017\/02\/hero-2.jpg",
@@ -17621,7 +17833,7 @@
 		},
 	"\/wp\/wp-content\/uploads\/2017\/02\/hero-3-sm.jpg": {
 		"ft": 16384,
-		"iS": 33674,
+		"iS": 64685,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/wp\/wp-content\/uploads\/2017\/02\/hero-3-sm.jpg",
@@ -17632,7 +17844,7 @@
 		},
 	"\/wp\/wp-content\/uploads\/2017\/02\/hero-3.jpg": {
 		"ft": 16384,
-		"iS": 51799,
+		"iS": 110672,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/wp\/wp-content\/uploads\/2017\/02\/hero-3.jpg",

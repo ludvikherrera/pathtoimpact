@@ -21,7 +21,7 @@
 					<span class="heading-secondary">Helpful Links</span>
 					<div class="row">
 						<div class="col-xs-6 col-sm-4">
-							<a href="#" class="footer-title" title="">About Us</a>
+							<a href="#" class="footer-title" title="">Impact Institute</a>
 							<?php
 				                wp_nav_menu( array(
 				                    'menu'   => 'footer 1'
@@ -37,6 +37,7 @@
 				            ?>
 						</div>
 						<div class="col-xs-12 col-sm-4">
+							<a href="#" class="footer-title" title="">For Members</a>
 							<?php
 				                wp_nav_menu( array(
 				                    'menu'   			=> 'footer 3',
@@ -82,8 +83,8 @@
 <script src="/assets/js/app.js"></script>
 
 <script>
-	 
-	 
+
+
 </script>
 
 <?php if (!WP_DEBUG) : ?>

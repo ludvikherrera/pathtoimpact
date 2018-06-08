@@ -65,7 +65,7 @@ if($startYear == $endYear) {
 								<script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
 								<script type="IN/Share" data-url="<?php the_permalink(); ?>"></script>
 							</div>
-							
+
 						</div>
 					</header>
 					<div class="main-content">
@@ -77,7 +77,7 @@ if($startYear == $endYear) {
 
 						<br /><br />
 
-						
+
 						<?php if(get_field('form_id')) : ?>
 
 							<h2 class="heading-secondary">Get More Info</h2>
@@ -94,28 +94,25 @@ if($startYear == $endYear) {
 		<section class="article-block">
 			<div class="container">
 
-				<!--Info Grid-->
-				<?php get_template_part('parts/info_grid'); ?>
-
 				<div class="article-heading row">
 					<div class="col-sm-6">
 						<h2 class="heading-secondary">More Events</h2>
 					</div>
 					<div class="col-sm-6">
-						
+
 					</div>
 				</div>
 
 				<!--Lower Section-->
 				<div class="eq-height row">
-				
-					<?php 
-						
+
+					<?php
+
 						//echo "<pre>";
 						//print_r($cats);
 						//echo "</pre>";
 
-						$args = array( 
+						$args = array(
 							'numberposts' 		=> '3',
 							'post_type'			=> 'event',
 							'meta_key' 			=> 'start_date',
@@ -134,14 +131,14 @@ if($startYear == $endYear) {
                         $startDate = get_field('start_date', $recent['ID']);
                         $startObject = new DateTime($startDate);
                         $startTimestamp = date_timestamp_get($startObject);
-                        $startMonth = date('F', $startTimestamp);
+                        $startMonth = date('M', $startTimestamp);
                         $startDay = date('j', $startTimestamp);
                         $startYear = date('Y', $startTimestamp);
 
                         $endDate = get_field('end_date', $recent['ID']);
                         $endObject = new DateTime($endDate);
                         $endTimestamp = date_timestamp_get($endObject);
-                        $endMonth = date('F', $endTimestamp);
+                        $endMonth = date('M', $endTimestamp);
                         $endDay = date('j', $endTimestamp);
                         $endYear = date('Y', $endTimestamp);
 
@@ -170,7 +167,7 @@ if($startYear == $endYear) {
 						<section class="article-item col-sm-4">
 							<a href="<?php echo get_permalink($recent["ID"]); ?>" class="article-item-wrap" title="">
 								<figure>
-						
+
 									<?php if(get_field('featured_post_image', $recent["ID"])): ?>
 										<img src="<?php the_field('featured_post_image', $recent["ID"]); ?>" alt="" height="241" width="385">
 									<?php else: ?>
@@ -178,10 +175,13 @@ if($startYear == $endYear) {
 									<?php endif; ?>
 								</figure>
 								<div class="article-content">
-									<span class="title-primary"><?php echo $datePrintOut; ?> | <?php the_field('location', $recent["ID"]); ?></span>
+									<div class="title-primary event-date"><?php echo $datePrintOut; ?>
+                  </div>
+                  	<div class="title-primary event-loc">
+                      <?php the_field('location', $recent["ID"]); ?></div>
 									<h3 class="heading-tertiary"><?php echo $recent["post_title"]; ?></h3>
 									<?php echo $dmf->custom_content(25, false, $recent['post_content']); ?>
-									<span class="link-more arrow-right red" title="">Read Article</span>
+									<span class="link-more arrow-right" title="">View Event</span>
 								</div>
 							</a>
 						</section>
@@ -193,7 +193,7 @@ if($startYear == $endYear) {
 		</section>
 
 	<?php endwhile; endif; ?>
-	
+
 </main>
 
 

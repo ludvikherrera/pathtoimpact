@@ -46,6 +46,7 @@ query_posts($args);
 		</div>
 	</div>
 
+
 	<!--Article Block-->
 	<section class="article-block">
 		<div class="container">
@@ -58,7 +59,7 @@ query_posts($args);
 						</div>
 
 						<!--Info Grid-->
-						<?php get_template_part('parts/info_grid'); ?>
+						<!--?php get_template_part('parts/info_grid'); ?-->
 
 						<div class="eq-height row">
 
@@ -68,8 +69,8 @@ query_posts($args);
 						<section class="article-item col-sm-12 col-md-4">
 							<a href="<?php echo get_permalink($post->ID); ?>" class="article-item-wrap" title="">
 								<figure>
-									
-									<span class="article-category blue">
+
+									<span class="article-category light-blue">
 										Event
 									</span>
 									<?php if(get_field('featured_post_image', $post->ID)): ?>
@@ -79,20 +80,20 @@ query_posts($args);
 									<?php endif; ?>
 								</figure>
 								<div class="article-content">
-									
-									<div class="title-primary">
+
+									<div class="title-primary event-date">
                                         <?php
                                             $startDate = get_field('start_date');
                                             $startObject = new DateTime($startDate);
                                             $startTimestamp = date_timestamp_get($startObject);
-                                            $startMonth = date('F', $startTimestamp);
+                                            $startMonth = date('M', $startTimestamp);
                                             $startDay = date('j', $startTimestamp);
                                             $startYear = date('Y', $startTimestamp);
 
                                             $endDate = get_field('end_date');
                                             $endObject = new DateTime($endDate);
                                             $endTimestamp = date_timestamp_get($endObject);
-                                            $endMonth = date('F', $endTimestamp);
+                                            $endMonth = date('M', $endTimestamp);
                                             $endDay = date('j', $endTimestamp);
                                             $endYear = date('Y', $endTimestamp);
 
@@ -119,11 +120,11 @@ query_posts($args);
                                             echo $datePrintOut;
                                         ?>
                                     </div>
-									<div class="title-primary"><?php the_field('location'); ?></div>
+									<div class="title-primary event-loc"><?php the_field('location'); ?></div>
 
 									<h3 class="heading-tertiary"><?php echo the_title(); ?></h3>
 									<?php echo $dmf->custom_content(25, false, get_the_content()); ?>
-									<span class="link-more arrow-right red" title="">View Event</span>
+									<span class="link-more arrow-right" title="">View Event</span>
 								</div>
 							</a>
 						</section>
@@ -141,6 +142,32 @@ query_posts($args);
 
 		</div>
 	</section>
+
+	<!-- START Nu Block -->
+	<section class="nu-block discover-memb">
+					<div class="container">
+							<div class="grid-img">
+									<picture>
+					<!--[if IE 9]><video style="display: none;"><![endif]-->
+					<!-- <source srcset="http://www.pathtoimpact.org/wp/wp-content/uploads/2017/02/info-1.jpg" media="(min-width: 768px)"> -->
+					<!--[if IE 9]></video><![endif]-->
+					<img srcset="/assets/img/dash_pattern_t.png" alt="">
+				</picture>
+						 </div>
+							<div class="eq-height no-gutters row">
+									<div class="col-lg-12">
+					<h2 class="heading-primary hlt-title">Discover the many benefits of membership</h2>
+				</div>
+							</div>
+									<!-- <div class="deco no-gutters row fullwidth"> -->
+									<div class="eq-height no-gutters row">
+											<div class="col-sm-12 col-md-6 col-md-offset-6">
+													<a href="/become-a-member" class="btn btn-blue-light btn-top arrow-right" title="">Learn More</a>
+											</div>
+									</div>
+					</div>
+	</section>
+	<!-- END Nu Block -->
 
 </main>
 

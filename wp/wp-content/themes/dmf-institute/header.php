@@ -10,6 +10,8 @@
 	<link rel="icon" href="/assets//img/favicon.ico" type="image/x-icon">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	
+	<link rel="stylesheet" type="text/css" href="https://cloud.typography.com/6568196/6439992/css/fonts.css" />
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,700" rel="stylesheet">
 	<link rel="stylesheet" href="/assets/css/style.css" type="text/css" media="all">
 
 	<?php wp_head(); ?>

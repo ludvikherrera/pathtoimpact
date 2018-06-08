@@ -16,7 +16,7 @@ class DMF {
 	 *
 	 */
 	function __construct() {
-		
+
 		if (!session_id()) session_start();
 
 		$this->setup_theme();
@@ -99,11 +99,11 @@ class DMF {
 							"99CCFF", "Light sky blue",
 							"CC99FF", "Plum"';
 
-		$custom_colours =  '"346ea2", "Impact Blue",
-							"e64b4d", "Impact Red",
-							"73afe1", "Pale Blue",
-							"05283c", "Midnight Blue",
-							"f5736e", "Sunrise Red"';
+		$custom_colours =  '"426da9", "Impact Blue",
+							"ee2737", "Impact Red",
+							"41b6e6", "Light Blue",
+							"274165", "Dark Blue",
+							"ff585d", "Light Red"';
 
 		// build colour grid default+custom colors
 		$init['textcolor_map'] = '['.$default_colours.','.$custom_colours.']';
@@ -119,16 +119,16 @@ class DMF {
 	function cf_search_join( $join ) {
 	    global $wpdb;
 
-	    if ( is_search() ) {    
+	    if ( is_search() ) {
 	        $join .=' LEFT JOIN '.$wpdb->postmeta. ' ON '. $wpdb->posts . '.ID = ' . $wpdb->postmeta . '.post_id ';
 	    }
-	    
+
 	    return $join;
 	}
 
 	function cf_search_where( $where ) {
 	    global $wpdb;
-	   
+
 	    if ( is_search() ) {
 	        $where = preg_replace(
 	            "/\(\s*".$wpdb->posts.".post_title\s+LIKE\s*(\'[^\']+\')\s*\)/",
@@ -152,7 +152,7 @@ class DMF {
 
 	function exclude_from_search() {
 		global $wp_post_types;
-	 
+
 		if ( post_type_exists( 'staff' ) ) {
 			// exclude from search results
 			$wp_post_types['staff']->exclude_from_search = true;
@@ -195,19 +195,19 @@ class DMF {
 	}
 
 	/**
-	 * 
+	 *
 	 */
 	function custom_excerpt($limit = 75, $more = true){
-	
+
 		// from wp_trim_excerpt() in /wp-includes/formatting.php
 		$text = get_the_content('');
 		$text = strip_shortcodes( $text );
 		$text = apply_filters('the_content', $text);
 		$text = str_replace(']]>', ']]&gt;', $text);
-	 
-		// wp already has a trim function 
+
+		// wp already has a trim function
 		$text = wp_trim_words($text, $limit, ''); // pass an empty string in as $more, so we can define our own
-		
+
 		// let's trim this back to the last sentence
 		$punctuation_locations = array(
 			strrpos($text, '.', -1),
@@ -216,35 +216,35 @@ class DMF {
 			strrpos($text, ')', -1),
 			strrpos($text, '"', -1)
 		);
-	 
+
 		$pos = max($punctuation_locations);
-		       
+
 	    	if($pos != false) {
 	        	$text = substr($text, 0, $pos+1);
 	   	}
-	 
+
 		// tack on the read more if asked to
 		if( $more ){
 			$text .= '<br /><br /><a href="'.get_permalink().'" class="btn" title="'.get_the_title().'">Read more</a>';
 		}
-	 
+
 		return wpautop($text);
 	}
 
 	/**
-	 * 
+	 *
 	 */
 	function custom_content($limit = 75, $more = true, $content){
-	
+
 		// from wp_trim_excerpt() in /wp-includes/formatting.php
 		$text = $content;
 		$text = strip_shortcodes( $text );
 		//$text = apply_filters('the_content', $text);
 		$text = str_replace(']]>', ']]&gt;', $text);
-	 
-		// wp already has a trim function 
+
+		// wp already has a trim function
 		$text = wp_trim_words($text, $limit, ''); // pass an empty string in as $more, so we can define our own
-		
+
 		// let's trim this back to the last sentence
 		$punctuation_locations = array(
 			strrpos($text, '.', -1),
@@ -253,18 +253,18 @@ class DMF {
 			strrpos($text, ')', -1),
 			strrpos($text, '"', -1)
 		);
-	 
+
 		$pos = max($punctuation_locations);
-		       
+
 	    	if($pos != false) {
 	        	$text = substr($text, 0, $pos+1);
 	   	}
-	 
+
 		// tack on the read more if asked to
 		if( $more ){
 			$text .= '<br /><br /><a href="'.get_permalink().'" title="'.get_the_title().'">Read more...</a>';
 		}
-	 
+
 		return wpautop($text);
 	}
 
@@ -342,7 +342,7 @@ class DMF {
 	//###############################################################################
 	// Fix Gravity Form Tabindex Conflicts
 	//###############################################################################
-     
+
      function gform_tabindexer() {
          $starting_index = 1000; // if you need a higher tabindex, update this number
          return GFCommon::$tab_index >= $starting_index ? GFCommon::$tab_index : $starting_index;
@@ -371,28 +371,30 @@ class DMF {
 				height: 150px !important;
 			}
 			body.login {
-				background: #05283c !important;
+				background: #F0F0F5 !important;
 			}
 			.wp-core-ui .button-primary {
-				background: #73afe1;
-				border-color: #73afe1;
+				background: #ff585d;
 				outline: none;
+				box-shadow: none;
+				text-shadow: none;
+				border: none;
 			}
-			.wp-core-ui .button-primary.hover, 
-			.wp-core-ui .button-primary:hover, 
-			.wp-core-ui .button-primary.focus, 
+			.wp-core-ui .button-primary.hover,
+			.wp-core-ui .button-primary:hover,
+			.wp-core-ui .button-primary.focus,
 			.wp-core-ui .button-primary:focus {
-				background: #73afe1;
-				border-color: #73afe1;
+				background: #426da9;
+
 			}
 			.login form {
-				background: #e64b4d;
+				background: #41b6e6;
 			}
 			.login form label {
 				color: #fff;
 			}
-			div.updated, 
-			.login .message, 
+			div.updated,
+			.login .message,
 			.press-this #message {
 				background-color: #fff;
 				border-left: 4px solid #e64b4d;
@@ -405,7 +407,7 @@ class DMF {
 		echo '<link rel="stylesheet" type="text/css" href="'.get_template_directory_uri().'/assets/admin.css">';
 	}
 
-	
+
 
 	/**
 	 * Theme setup, support, menus, image sizes, etc.
@@ -415,7 +417,7 @@ class DMF {
 	}
 
 
-	
+
 
 	function register_my_menu() {
 	  register_nav_menu('top-menu',__( 'Top Menu' ));
@@ -429,5 +431,3 @@ class DMF {
 
 
 $GLOBALS['dmf'] = new DMF();
-
-

@@ -87,9 +87,9 @@ get_header(); ?>
 
 						<?php while ( have_posts() ) : the_post(); ?>
 
-							<section class="article-item col-sm-12 col-md-4">
+							<section class="article-item col-sm-12">
 								<a href="<?php echo get_permalink($post->ID); ?>" class="article-item-wrap" title="">
-									<figure>
+									<figure class="col-md-4">
 
 										<span class="article-category blue">
 											<?php
@@ -103,12 +103,12 @@ get_header(); ?>
 											?>
 										</span>
 										<?php if(get_field('featured_post_image', $post->ID)): ?>
-											<img src="<?php the_field('featured_post_image', $post->ID); ?>" alt="" height="241" width="385">
+											<img src="<?php the_field('featured_post_image', $post->ID); ?>" alt="">
 										<?php else: ?>
-											<img src="/assets/img/blank.jpg" alt="" height="241" width="385">
+											<img src="/assets/img/blank.jpg" alt="">
 										<?php endif; ?>
 									</figure>
-									<div class="article-content">
+									<div class="article-content col-md-8">
 										
 										<h3 class="heading-tertiary"><?php echo the_title(); ?></h3>
 										<?php 
@@ -121,7 +121,7 @@ get_header(); ?>
 												echo $dmf->custom_content(25, false, get_the_content()); 
 											}
 										?>
-										<span class="link-more arrow-right red" title="">Read More</span>
+										<span class="link-more arrow-right" title="">Read More</span>
 									</div>
 								</a>
 							</section>

@@ -44,6 +44,8 @@
 					padding-left: 30px;
 					padding-right: 30px;
 				}
+                
+                
 
 				&:hover {
 					// background-color: $color-blue-med; nu_edit
@@ -60,7 +62,24 @@
 				top: 20px;
 				width: 1px;
 			}
+        
 			&:last-child {
+            float: right;
+            margin-right: 1px;
+            -webkit-transition: 0.3s;
+            -o-transition: 0.3s;
+            transition: 0.3s; 
+                
+               a {
+                    color: $color-white;
+                    background: $color-red-light;
+                    
+                    &:hover {
+                        background: $color-blue-light;
+                    }
+                }
+                
+                    
 				&:after {
 					display: none;
 				}

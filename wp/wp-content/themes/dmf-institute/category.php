@@ -100,7 +100,7 @@ $thisCat = $current_category->term_id;
 								<span class="title-primary"><?php echo get_the_date('M j, Y', $post->ID); ?></span>
 								<h3 class="heading-tertiary"><?php echo the_title(); ?></h3>
 								<?php echo $dmf->custom_content(25, false, get_the_content()); ?>
-								<span class="link-more arrow-right red" title="">Read Article</span>
+								<span class="link-more arrow-right" title="">Read Article</span>
 							</div>
 						</a>
 					</section>

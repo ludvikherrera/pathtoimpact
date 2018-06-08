@@ -214,80 +214,80 @@
 
 /*Category Title*/
 .article-category {
-	background: $color-white;
-	border-top: solid 4px $color-blue-dark;
-	display: block;
-	font-size: $font-size-xs;
-	letter-spacing: 1.75px;
-	padding: 3px 15px;
-	text-align: center;
-	text-transform: uppercase;
-	@include sans-regular;
+    background: $color-white;
+    border-top: solid 4px $color-blue-dark;
+    display: block;
+    font-size: $font-size-xs;
+    letter-spacing: 1.75px;
+    padding: 3px 15px;
+    text-align: center;
+    text-transform: uppercase;
+    @include sans-regular;
 
-	&.blue {
-		border-color: #727794;
-		color: #727794;
-	}
-	&.red {
-		border-color: #E4644A;
-		color: #E4644A;
-	}
-	&.yellow {
-		border-color: #ECBD48;
-		color: #ECBD48;
-	}
-	&.green {
-		border-color: #6CB77E;
-		color: #6CB77E;
-	}
-	&.tan {
-		border-color: #C39F74;
-		color: #C39F74;
-	}
-	&.impact-blue {
-		border-color: #346ea2;
-		color: #346ea2;
-	}
-	&.impact-red {
-		border-color: #e64b4d;
-		color: #e64b4d;
-	}
-	&.pale-blue {
-		border-color: #73afe1;
-		color: #73afe1;
-	}
-	&.midnight-blue {
-		border-color: #05283c;
-		color: #05283c;
-	}
-	&.sunrise-red {
-		border-color: #f5736e;
-		color: #f5736e;
-	}
-	&.trends-green {
-		border-color: #1DCA7F;
-		color: #1DCA7F;
-	}
-	&.transformations-purple {
-		border-color: #8C66C3;
-		color: #8C66C3;
-	}
-	&.tactics-blue {
-		border-color: #6590E7;
-		color: #6590E7;
-	}
-	&.targets-red {
-		border-color: #F68B7F;
-		color: #F68B7F;
-	}
-	&.tools-yellow {
-		border-color: #E9B008;
-		color: #E9B008;
-	}
-	&.team-turquoise {
-		border-color: #6BE1CC;
-		color: #6BE1CC;
-	}
+    &.blue {
+        border-color: #426da9;
+        color: #426da9;
+    }
+    &.red {
+        border-color: #ee2737;
+        color: #ee2737;
+    }
+    &.yellow {
+        border-color: #FAE100;
+        color: #FAE100;
+    }
+    &.green {
+        border-color: #6CB77E;
+        color: #6CB77E;
+    }
+    &.tan {
+        border-color: #999;
+        color: #999;
+    }
+    &.impact-blue {
+        border-color: #426da9;
+        color: #426da9;
+    }
+    &.impact-red {
+        border-color: #ee2737;
+        color: #ee2737;
+    }
+    &.light-blue {
+        border-color: #41b6e6;
+        color: #41b6e6;
+    }
+    &.dark-blue {
+        border-color: #274165;
+        color: #274165;
+    }
+    &.light-red {
+        border-color: #ff585d;
+        color: #ff585d;
+    }
+    &.trends-blue {
+        border-color: #00a3e0;
+        color: #00a3e0;
+    }
+    &.transformations-green {
+        border-color: #bfd300;
+        color: #bfd300;
+    }
+    &.tactics-orange {
+        border-color: #ff671f;
+        color: #ff671f;
+    }
+    &.targets-red {
+        border-color: #d50032;
+        color: #d50032;
+    }
+    &.tools-purple {
+        border-color: #84329b;
+        color: #84329b;
+    }
+    &.team-yellow {
+        border-color: #ffc600;
+        color: #ffc600;
+    }
 }
 
 /*Article Heading*/

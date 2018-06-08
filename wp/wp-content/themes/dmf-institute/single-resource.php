@@ -21,7 +21,7 @@ get_header();
 
 
 		<article class="content-block container">
-			<a href="/resources" class="back-link" title="">Back to Resources</a>
+			<a href="/resources" class="back-link" title="">Back to Online Resources</a>
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
 					<header class="content-header">
@@ -61,7 +61,7 @@ get_header();
 						<?php endif; ?>
 
 						<?php if(!isset($_COOKIE['dmf_resource_view']) OR $_COOKIE['dmf_resource_view']==1): ?>
-							
+
 							<?php the_content(); ?>
 
 						<?php else: ?>
@@ -71,7 +71,7 @@ get_header();
 							<!--Resource Signup-->
 							<div class="newsletter-signup">
 								<h2 class="heading-secondary">Sign Up To Access This Resource</h2>
-								
+
 								<?php gravity_form( 4, false, false, false, '', false ); ?>
 
 							</div>
@@ -109,48 +109,7 @@ get_header();
 			$recent_posts = wp_get_recent_posts( $args );
 		?>
 
-		<?php if($recent_posts): ?>
 
-			<!--Article Block-->
-			<section class="article-block">
-				<div class="container">
-
-					<!--Info Grid-->
-					<?php //get_template_part('parts/info_grid'); ?>
-
-					<div class="article-heading row">
-						<div class="col-sm-6">
-							<h2 class="heading-secondary">More Resources</h2>
-						</div>
-						<div class="col-sm-6">
-
-						</div>
-					</div>
-
-					<!--Lower Section-->
-					<div class="eq-height row">
-
-						<?php foreach( $recent_posts as $recent ) : ?>
-
-							<section class="article-item col-sm-12 col-md-4">
-								<a href="<?php echo get_permalink($recent["ID"]); ?>" class="article-item-wrap" title="">
-									
-									<div class="article-content">
-										<span class="title-primary"><?php echo get_the_date('M j, Y', $recent["ID"]); ?></span>
-										<h3 class="heading-tertiary"><?php echo $recent["post_title"]; ?></h3>
-										<?php echo $dmf->custom_content(25, false, $recent['post_content']); ?>
-										<span class="link-more arrow-right red" title="">Read Article</span>
-									</div>
-								</a>
-							</section>
-						<?php endforeach; ?>
-
-					</div>
-
-				</div>
-			</section>
-			
-		<?php endif; ?>
 
 	<?php endwhile; endif; ?>
 
