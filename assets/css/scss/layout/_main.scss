@@ -17,7 +17,7 @@ main {
 			padding-right: 5%;
 		}
 	}
-    
+
     p {
         font-size: 1.125em;
         color: $color-black;
@@ -51,15 +51,19 @@ main {
 		line-height: 46px;
 	}
 
+	@media (max-width: $screen-xs-max) {
+		font-size: ($font-size-md + 2);
+	}
+
     &.hlt-title {
         @include sans-bold;
         color: $color-red-med;
         margin-right: 1em;
-        
+
     @media (min-width: $screen-md-min) {
 					margin-bottom: 30px;
 	}
-    
+
 
     @media (min-width: $screen-sm-min) {
 		font-size: $font-size-lg * 1.25;

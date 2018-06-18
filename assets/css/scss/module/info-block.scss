@@ -131,6 +131,11 @@
 			margin-top: 30px;
 			padding: 12px 50px;
             display: block;
+						white-space: normal; //nu_edit
+
+						@media (max-width: $screen-sm-min) {
+							padding: 12px 25px;
+						}
 		}
 	}
 	img {
