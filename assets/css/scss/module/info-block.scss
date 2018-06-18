@@ -13,7 +13,7 @@
 	background-position: left; // nu_edit
     margin-top: 4.5em;
     margin-bottom: 2em;
-    
+
     svg#cal-icon {
     position: absolute;
     right: 0;
@@ -38,7 +38,11 @@
 	}
 
 	&.upcoming-events {
-		height: 600px;
+		height: 650px; // nu_edit
+
+		@media (min-width: $screen-sm-min) { // nu_edit
+			height: 600px; // nu_edit
+		} // nu_edit
 
 		h2 {
 			padding: 0 40px;
@@ -67,7 +71,7 @@
 
 	.container {
 		width: 100%; // nu_edit
-        
+
         @media (max-width: $screen-md) {
             width: 90vw;
             margin: 0 auto;
@@ -79,7 +83,7 @@
         padding: 1em;
         padding-top: 2.5em;
     }
-    
+
     .heading-alternate {
         padding: 40px; // nu_edit
         height: 100%; // nu_edit
@@ -127,6 +131,11 @@
 			margin-top: 30px;
 			padding: 12px 50px;
             display: block;
+						white-space: normal; //nu_edit
+
+						@media (max-width: $screen-sm-min) {
+							padding: 12px 25px;
+						}
 		}
 	}
 	img {
@@ -134,7 +143,7 @@
 		width: 100%;
         position: relative;
         z-index: -2;
-        
+
 	}
 	.info-content {
 		height: 100%;
@@ -144,6 +153,10 @@
 		@media (min-width: $screen-md-min) {
 			padding: 100px 40px 40px 40px;
 		}
+
+		@media (max-width: $screen-sm-min) {  // nu_edit
+			padding: 0px; // nu_edit
+		} // nu_edit
 
 		&.info-overlay {
 			@media (min-width: $screen-ms-min) {
@@ -211,9 +224,9 @@
 		&.dark-blue {
 			color: $color-blue-dark;
 		}
-        
+
         @media (max-width: $screen-xs) {
-            font-size: 12px;
+            font-size: 10px; // nu_edit
         }
 	}
 
@@ -239,6 +252,10 @@
 	.info-details {
 		// margin-bottom: 40px;
 		text-align: center;
+
+		div { // nu_edit
+			height: 300px !important; // nu_edit
+		} // nu_edit
 
 		[class*='col-'] {
 			border-right: solid 1px $color-gray-xlight;

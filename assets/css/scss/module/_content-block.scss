@@ -18,16 +18,16 @@
 	padding-bottom: 40px;
 	padding-top: 40px;
 	position: relative;
-    
+
     &.container {
         @media (max-width: $screen-lg-min) {
              margin-top: 2em;
         }
-        
+
         @media (min-width: $screen-md-min) and (max-width: $screen-lg-min) {
-            width: calc( 100% - 60px ); 
+            width: calc( 100% - 60px );
         }
-        
+
         @media (min-width: $screen-lg) {
             width: calc( 100% - 60px );
         }
@@ -242,9 +242,12 @@
 	img.headshot { //nu_edit
 		width: 180px; //nu_edit
 		height: auto; //nu_edit
-		float: left; //nu_edit
 		border-radius: 50%; //nu_edit
-		padding: 20px; //nu_edit
+
+		@media (min-width: $screen-sm-min) {
+			float: left; //nu_edit
+			padding: 20px; //nu_edit
+		}
 	} //nu_edit
 
 	/* Tile List */
@@ -273,7 +276,7 @@
             
 			p:first-of-type {
 				font-weight: bold;
-				margin-bottom: -3em;
+				margin-bottom: -1.5em;
 			}
 		}
 	}
@@ -307,7 +310,10 @@
 	margin: 50px 0;
 	overflow: hidden;
 	h3 {
+		margin-bottom: 0px !important;
+		@media (min-width: $screen-xs-max) {
 		margin-bottom: -30px !important;
+		}
 	}
 	div {
 		height: 100%;
